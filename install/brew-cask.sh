@@ -14,8 +14,6 @@ brew cask install intellij-idea
 brew cask install iterm2
 brew cask install karabiner
 brew cask install keepingyouawake
-brew cask install launchbar
-brew cask install mactracker
 brew cask install macvim
 brew cask install mailbox
 brew cask install microsoft-office

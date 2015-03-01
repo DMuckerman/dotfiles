@@ -215,14 +215,20 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict General -bool true Ope
 # Dock                                                                        #
 ###############################################################################
 
-# Show indicator lights for open applications in the Dock
-defaults write com.apple.dock show-process-indicators -bool true
+# Hide indicator lights for open applications in the Dock
+defaults write com.apple.dock show-process-indicators -bool false
 
 # Don’t animate opening applications from the Dock
 defaults write com.apple.dock launchanim -bool false
 
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
+
+# Minimize windows into their application’s icon
+defaults write com.apple.dock minimize-to-application -bool true
+
+# Change minimize/maximize window effect
+defaults write com.apple.dock mineffect -string "scale"
 
 # No bouncing icons
 #defaults write com.apple.dock no-bouncing -bool true
