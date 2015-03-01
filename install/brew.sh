@@ -11,8 +11,8 @@ brew install bash-completion
 brew install coreutils
 brew install dockutil
 brew install git
-brew install gnu-sed --default-names
-brew install grep --default-names
+brew install gnu-sed —with-default-names
+brew install grep —with-default-names
 brew install hub
 brew install jq
 brew install peco

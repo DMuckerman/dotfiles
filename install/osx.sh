@@ -2,7 +2,7 @@
 
 # Install Homebrew & brew-cask
 
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
@@ -31,6 +31,3 @@ source "$DOTFILES_DIR/install/brew-cask.sh"
 #npm install -g spot
 #npm install -g svgo
 #npm install -g vtop
-
-# http://www.sublimetext.com/docs/3/osx_command_line.html
-[ -f ~/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ] && ln -sfv ~/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl "$DOTFILES_DIR/bin/subl"
