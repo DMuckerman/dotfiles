@@ -2,7 +2,7 @@
 
 These are my dotfiles. Take anything you want, but at your own risk.
 
-It targets OS X systems, but since it has some defensive checks it should work on *nix as well (tested on a few Linux boxes).
+It targets OS X systems. It might work on *nix boxes, but I may have broken a few things. :P
 
 ## Install
 
@@ -46,7 +46,6 @@ You can put your custom settings, such as Git credentials in the `system/.custom
 * [dockutil](https://github.com/kcrawford/dockutil)
 * [hub](http://hub.github.com/)
 * [http-server](https://github.com/nodeapps/http-server)
-* [Mjolnir](https://github.com/sdegutis/mjolnir)
 * [jq](http://stedolan.github.io/jq/)
 * [lunchy](https://github.com/eddiezane/lunchy)
 * [peco](http://peco.github.io/)
@@ -67,8 +66,9 @@ You can put your custom settings, such as Git credentials in the `system/.custom
 * [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles)
 * [Homebrew](http://brew.sh/) ([FAQ](https://github.com/Homebrew/homebrew/wiki/FAQ))
 * [homebrew-cask](http://caskroom.io/) ([usage]((https://github.com/phinze/homebrew-cask/blob/master/USAGE.md))
-* [Bash prompt](http://wiki.archlinux.org/index.php/Color_Bash_Prompt)
 
 ## Credits
 
 Many thanks to the [dotfiles community](http://dotfiles.github.io/) and the creators of the incredibly useful tools.
+
+And thanks to [webpro](https://github.com/webpro/dotfiles), since his dotfiles are the basis from which mine have sprung.
