@@ -6,11 +6,15 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
+brew tap thoughtbot/formulae
 
 # Install brew & brew-cask packages
 
 source "$DOTFILES_DIR/install/brew.sh"
 source "$DOTFILES_DIR/install/brew-cask.sh"
+
+# Setup some helpful stuff for go
+source "$DOTFILES_DIR/install/go.sh"
 
 # Install Ruby gems (SASS, Compass)
 

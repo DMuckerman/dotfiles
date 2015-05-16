@@ -2,7 +2,8 @@
 
 These are my dotfiles. Take anything you want, but at your own risk.
 
-It targets OS X systems. It might work on *nix boxes, but I may have broken a few things. :P
+It targets OS X systems. It might work on \*nix boxes, but I may have
+broken a few things. :P
 
 ## Install
 
@@ -15,7 +16,7 @@ Install the dotfiles with either Git or curl:
 
 ### Clone with Git
 
-    git clone https://github.com/webpro/dotfiles.git
+    git clone https://github.com/dmuckerman/dotfiles.git
     source dotfiles/install.sh
 
 ### Remotely install using curl
@@ -39,7 +40,9 @@ Alternatively, you can install this into `~/.dotfiles` from remote without Git u
 
 ## Custom settings
 
-You can put your custom settings, such as Git credentials in the `system/.custom` file which will be sourced from `.bash_profile` automatically. This file is in `.gitignore`.
+You can put your custom settings, such as Git credentials in the
+`system/.custom` file which will be sourced from `.bash_profile`
+automatically. This file is in `.gitignore`.
 
 ## Some installed packages
 
@@ -69,6 +72,15 @@ You can put your custom settings, such as Git credentials in the `system/.custom
 
 ## Credits
 
-Many thanks to the [dotfiles community](http://dotfiles.github.io/) and the creators of the incredibly useful tools.
+Many thanks to the [dotfiles community](http://dotfiles.github.io/) and
+the creators of the incredibly useful tools.
 
-And thanks to [webpro](https://github.com/webpro/dotfiles), since his dotfiles are the basis from which mine have sprung.
+Thanks to [webpro](https://github.com/webpro/dotfiles), since his dotfiles
+are the basis from which mine have sprung.
+
+Thanks to [thoughtbot](https://github.com/thoughtbot) for
+[RCM](https://github.com/thoughtbot/rcm), which has made the symlinking
+process even more delightful.
+
+And thanks to [octotep](https://github.com/octotep) for turning me on to
+Vim. :P

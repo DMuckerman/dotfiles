@@ -1,21 +1,25 @@
 #!/bin/sh
 
-brew cask install 1password
+brew cask install Caskroom/cask/osxfuse
+brew cask install Caskroom/cask/xquartz
 brew cask install appcleaner
 brew cask install bartender
+brew cask install colorpicker-hex
 brew cask install doxie
 brew cask install dropbox
+brew cask install emacs
+brew cask install evernote
 brew cask install fantastical
 brew cask install fluid
 brew cask install flux
 brew cask install github
 brew cask install google-chrome
+brew cask install handbrake
 brew cask install intellij-idea
 brew cask install iterm2
+brew cask install java
 brew cask install karabiner
 brew cask install keepingyouawake
-brew cask install macvim
-brew cask install mailbox
 brew cask install microsoft-office
 brew cask install omnioutliner
 brew cask install omnipresence
@@ -27,7 +31,8 @@ brew cask install sizeup
 brew cask install skype
 brew cask install slack
 brew cask install sourcetree
-brew cask install sublime-text3
+brew cask install spotifree
+brew cask install spotify
 brew cask install the-unarchiver
 brew cask install vlc
 

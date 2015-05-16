@@ -11,10 +11,13 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "0x4A6F6B6572"
-sudo scutil --set HostName "0x4A6F6B6572"
-sudo scutil --set LocalHostName "0x4A6F6B6572"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0x4A6F6B6572"
+sudo scutil --set ComputerName "Meteor G"
+sudo scutil --set HostName "Meteor G"
+sudo scutil --set LocalHostName "Meteor G"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Meteor G"
+
+# Set highlight color to green
+defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
 # Set standby delay to 1
 sudo pmset -a standbydelay 3600
@@ -71,10 +74,10 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # Trackpad: map bottom right corner to right-click
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+#defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
+#defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
 # Trackpad: swipe between pages with three fingers
 #defaults write NSGlobalDomain AppleEnableSwipeNavigateWithScrolls -bool true
