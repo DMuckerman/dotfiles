@@ -13,6 +13,7 @@ brew install rcm
 
 brew tap homebrew/x11
 brew tap beeftornado/rmtree
+brew tap neovim/homebrew-neovim
 
 # Install GNU packages (and override OSX version)
 
@@ -43,6 +44,7 @@ brew install little-cms2
 brew install lua
 brew install macvim --with-cscope --with-lua --HEAD
 brew install markdown
+brew install --HEAD neovim
 brew install openssl
 brew install pandoc
 brew install peco
@@ -56,6 +58,7 @@ brew install ssh-copy-id
 brew install sshfs
 brew install svn
 brew install tree
+brew install https://raw.githubusercontent.com/choppsv1/homebrew-term24/master/tmux.rb
 brew install vim --with-lua
 brew install wget
 brew install --build-from-source xapian --with-python

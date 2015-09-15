@@ -1,0 +1,48 @@
+# Config
+config windowHintsFontSize 100
+config nudgePercentOf screenSize
+config resizePercentOf screenSize
+config windowHintsTopLeftX (windowSizeX/2)-(windowHintsWidth/2)
+config windowHintsTopLeftY (windowSizeY/2)-(windowHintsHeight/2)
+config windowHintsIgnoreHiddenWindows false
+
+# General aliases
+alias sox screenOriginX
+alias soy screenOriginY
+alias ssx screenSizeX
+alias ssy screenSizeY
+
+# Position aliases
+alias centered ${sox}+${ssx}/6;${soy}+${ssy}/6 ${ssx}/6*4;${ssy}/6*4
+alias fullscreen ${sox};${soy} ${ssx};${ssy}
+alias leftHalf ${sox};${soy} ${ssx}/2;${ssy}
+alias bottomHalf ${sox};${soy}+${ssy}/2 ${ssx};${ssy}/2
+alias topHalf ${sox};${soy} ${ssx};${ssy}/2
+alias rightHalf ${sox}+${ssx}/2;${soy} ${ssx}/2;${ssy}
+alias topLeftQuarter ${sox};${soy} ${ssx}/2;${ssy}/2
+alias topRightQuarter ${sox}+${ssx}/2;${soy} ${ssx}/2;${ssy}/2
+alias bottomLeftQuarter ${sox};${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
+alias bottomRightQuarter ${sox}+${ssx}/2;${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
+
+# Bindings
+# Split Screen Actions
+bind left:cmd;ctrl;alt move ${leftHalf}
+bind right:cmd;ctrl;alt move ${rightHalf}
+bind up:cmd;ctrl;alt move ${topHalf}
+bind down:cmd;ctrl;alt move ${bottomHalf}
+
+# Quarter Screen Actions
+bind left:ctrl;shift;alt move ${topLeftQuarter}
+bind up:ctrl;shift;alt move ${topRightQuarter}
+bind down:ctrl;shift;alt move ${bottomLeftQuarter}
+bind right:ctrl;shift;alt move ${bottomRightQuarter}
+
+# Multiple Monitor Actions
+
+# Spaces Actions
+
+# SnapBack Action
+
+# Other Actions
+bind m:cmd;ctrl;alt move ${fullscreen}
+bind c:cmd;ctrl;alt move ${centered}

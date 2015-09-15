@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Tap Versions
+
+brew tap caskroom/versions
+
 brew cask install Caskroom/cask/osxfuse
 brew cask install Caskroom/cask/xquartz
 brew cask install appcleaner
@@ -8,15 +12,15 @@ brew cask install colorpicker-hex
 brew cask install doxie
 brew cask install dropbox
 brew cask install emacs
-brew cask install evernote
-brew cask install fantastical
+brew cask install fantastical1
 brew cask install fluid
 brew cask install flux
-brew cask install github
+brew cask install github-desktop
 brew cask install google-chrome
 brew cask install handbrake
+brew cask install java6
 brew cask install intellij-idea
-brew cask install iterm2
+brew cask install iterm2-nightly
 brew cask install java
 brew cask install karabiner
 brew cask install keepingyouawake
@@ -30,9 +34,6 @@ brew cask install seil
 brew cask install sizeup
 brew cask install skype
 brew cask install slack
-brew cask install sourcetree
-brew cask install spotifree
-brew cask install spotify
 brew cask install the-unarchiver
 brew cask install vlc
 

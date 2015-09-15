@@ -1,12 +1,12 @@
 " Ensure Vim Plug is installed
-if empty(glob('~/.vim/autoload/plug.vim'))
-	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+if empty(glob('~/.nvim/autoload/plug.vim'))
+	silent !curl -fLo ~/.nvim/autoload/plug.vim --create-dirs
 		\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	autocmd VimEnter * PlugInstall
 endif
 
 " Vim Plug plugins
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.nvim/plugged')
 	" Misc stuff
 	Plug 'kien/rainbow_parentheses.vim'
 	Plug 'sjl/gundo.vim'
@@ -16,7 +16,7 @@ call plug#begin('~/.vim/plugged')
 	
 	" Search
 	Plug 'kien/ctrlp.vim'
-	Plug 'airblade/vim-rooter'
+	Plug 'airblade/vim-rooter'"
 
 	" UI stuff
 	Plug 'bling/vim-airline'
@@ -48,7 +48,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'SyntaxRange'
 
 	" Complicated stuff
-	Plug 'Shougo/neocomplete.vim'
+	"Plug 'Shougo/neocomplete.vim'
+	Plug 'Shougo/deoplete.nvim'
 	
 	" More syntaxes
 	Plug 'scrooloose/syntastic'
@@ -66,7 +67,7 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 " Set colorscheme and font
-set t_Co=256
+"set t_Co=256
 "set guifont=Menlo\ for\ Powerline:h12
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
 
@@ -87,7 +88,6 @@ set guioptions-=L  "scrollbar
 " Some nice things
 set relativenumber
 set autoindent
-set nocompatible
 filetype plugin on
 syntax on
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4	
@@ -142,8 +142,8 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
-" neocomplete
-let g:neocomplete#enable_at_startup = 1
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
 
@@ -169,7 +169,7 @@ nnoremap ; :
 " Make sure I can still use ;
 noremap ;; ;
 
-" Open .vimrc in split
+" Open .nvimrc in split
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 
 " Splits
@@ -251,6 +251,15 @@ let g:airline_theme='luna'
 " Thesaurus
 let g:online_thesaurus_map_keys = 0
 nnoremap <leader>k :OnlineThesaurusCurrentWord<CR>
+
+" Change cursor shape
+:let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
+
+" Enable true colors for iTerm
+:let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+" Ignore case in :e
+:set wildignorecase
 
 " Disable mode display, cuz airline
 set noshowmode

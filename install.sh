@@ -19,11 +19,11 @@ chsh -s /bin/zsh
 #ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 #ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 
-env RCRC=$HOME/dotfiles/rcrc rcup
-
 if [ "$(uname)" == "Darwin" -a -f "$DOTFILES_DIR/install/osx.sh" ]; then
     source "$DOTFILES_DIR/install/osx.sh"
 fi
+
+env RCRC=$HOME/dotfiles/rcrc rcup
 
 # Symlink MacVim to Applications folder
 ln -s /usr/local/Cellar/macvim/HEAD/MacVim.app ~/Applications/MacVim.app
