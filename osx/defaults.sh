@@ -436,6 +436,13 @@ defaults write com.apple.appstore ShowDebugMenu -bool true
 sudo tmutil disablelocal
 
 ###############################################################################
+# Restore extra keyboard layers                                               #
+###############################################################################
+
+# Copy Karabiner private.xml to proper location
+cp private.xml "~/Library/Application Support/Karabiner/private.xml"
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 

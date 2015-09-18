@@ -15,6 +15,7 @@ fi
 alias dotfiles="~/dotfiles/bin/dotfiles"
 alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
 alias lsa='ls -a'
+alias wiki='cd ~/twiccian.wiki && ls'
 
 alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'

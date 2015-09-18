@@ -68,7 +68,7 @@ call plug#end()
 " Set colorscheme and font
 set t_Co=256
 "set guifont=Menlo\ for\ Powerline:h12
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
+set guifont=Menlo\ for\ Powerline:h12
 
 " More convienent escape
 inoremap kj <ESC>
