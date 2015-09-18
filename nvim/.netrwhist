@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/danielmuckerman/School/CS420/lab01_filecopy'
+let g:netrw_dirhist_2='/Users/danielmuckerman/School/CS420'
+let g:netrw_dirhist_3='/Users/danielmuckerman/School/CS420/lab01_filecopy'
+let g:netrw_dirhist_4='/Users/danielmuckerman/twiccian.wiki'
+let g:netrw_dirhist_5='/Users/danielmuckerman'
+let g:netrw_dirhist_6='/Users'
+let g:netrw_dirhist_7='/'
+let g:netrw_dirhist_8='/Users/danielmuckerman/twiccian.wiki'

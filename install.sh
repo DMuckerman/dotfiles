@@ -25,6 +25,9 @@ fi
 
 env RCRC=$HOME/dotfiles/rcrc rcup
 
+cp vim ~/.vim
+cp nvim ~/.nvim
+
 # Symlink MacVim to Applications folder
 ln -s /usr/local/Cellar/macvim/HEAD/MacVim.app ~/Applications/MacVim.app
 
