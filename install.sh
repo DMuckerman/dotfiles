@@ -25,11 +25,11 @@ fi
 
 env RCRC=$HOME/dotfiles/rcrc rcup
 
+# Copy config folders
 cp vim ~/.vim
 cp nvim ~/.nvim
+cp mpd ~/.mpd
+cp ncmpcpp ~/.ncmpcpp
 
-# Symlink MacVim to Applications folder
-ln -s /usr/local/Cellar/macvim/HEAD/MacVim.app ~/Applications/MacVim.app
-
-# Install vitunes
-sudo gem install vitunes && vitunes-install
+# Copy Terminal Vim application
+cp osx/TerminalVim.app ~/Applications/TerminalVim.app

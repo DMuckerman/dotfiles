@@ -48,15 +48,10 @@ automatically. This file is in `.gitignore`.
 
 * [dockutil](https://github.com/kcrawford/dockutil)
 * [hub](http://hub.github.com/)
-* [http-server](https://github.com/nodeapps/http-server)
 * [jq](http://stedolan.github.io/jq/)
 * [lunchy](https://github.com/eddiezane/lunchy)
 * [peco](http://peco.github.io/)
 * [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
-* [spot](https://github.com/guille/spot)
-* [svgo](https://github.com/svg/svgo)
-* [tldr](https://github.com/tldr-pages/tldr)
-* [vtop](https://github.com/MrRio/vtop)
 
 ## Not or barely installable from CLI
 

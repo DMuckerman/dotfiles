@@ -16,6 +16,7 @@ alias dotfiles="~/dotfiles/bin/dotfiles"
 alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
 alias lsa='ls -a'
 alias wiki='cd ~/twiccian.wiki && ls'
+alias bd='cd ..'
 
 alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
@@ -26,6 +27,7 @@ alias yolo='git commit -am "DEAL WITH IT" && git push -f origin master'
 alias fuck='$(thefuck $(fc -ln -1))'
 # You can use whatever you want as an alias, like for mondays:
 alias FUCK='fuck'
+alias git=hub
 
 PERL_MB_OPT="--install_base \"/Users/danielmuckerman/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/Users/danielmuckerman/perl5"; export PERL_MM_OPT;
