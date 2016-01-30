@@ -47,7 +47,6 @@
 	untracked = cyan
 
 [credential]
-	helper = osxkeychain
 
 [grep]
 	lineNumber = true
