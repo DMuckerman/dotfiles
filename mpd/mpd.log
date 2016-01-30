@@ -4634,3 +4634,415 @@ Sep 17 23:30 : client: [2] opened from 127.0.0.1:52596
 Sep 17 23:32 : ffmpeg/mp3: Skipping 0 bytes of junk at 204830.
 Sep 17 23:33 : player: played "Chipzel/Super Hexagon EP/03 Focus.mp3"
 Sep 17 23:36 : client: [2] closed
+Sep 19 01:11 : player: played "Chipzel/Super Hexagon EP/03 Focus.mp3"
+Sep 19 01:11 : config: inotify: auto_update was disabled. enable during compilation phase
+Sep 19 01:11 : config: option 'enabled' on line 26 was not recognized
+Sep 19 01:11 : ffmpeg/mp3: Skipping 0 bytes of junk at 204830.
+Sep 19 01:11 : client: [0] opened from 127.0.0.1:57240
+Sep 19 01:11 : player: played "Chipzel/Super Hexagon EP/03 Focus.mp3"
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174888.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-01 Innocence.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174884.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-02 Awake.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174888.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-03 Fragments.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174900.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-04 Green Grass Gradation.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174893.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-05 En-trance Code.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174900.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-06 Brilliant Show Window.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174912.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-07 Cinq Ville - c`est notre espoir -.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-08 Wonder Panorama.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174892.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-09 Industrialism.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174918.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-10 Ultramarine Meditation - Blessed Pop -.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174904.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-11 Sky High - Grand Nuage -.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174893.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-12 Metallic Soul.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174897.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-13 Danger Attraction.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174890.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-14 Misty Rain.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174902.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-15 Ultramarine Meditation.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174891.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-16 Babel Tower.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174905.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-17 Fate - deep-seated grudge.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174911.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-18 Black Burn - Electpital Dance -.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174909.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-19 Innocence - karaoke Version -.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174904.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/1-20 Innocence - PV Version -.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174922.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-01 High-press Energy - Super Aniki Edition -.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174892.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-02 Crisis Zone.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174895.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-03 Mountain Rider.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174888.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-04 Trinity.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174890.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-05 Ogre Claw.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-06 Dance-macabre.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174891.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-07 Rockin' On.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174898.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-08 High-press Energy.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174889.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-09 Gauntlet.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174922.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-10 Brilliant Show Window - Shooter Trance -.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174891.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-11 Onslaught.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-12 Trap Factory.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174897.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-13 Doomsday Device.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174892.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-14 Black Burn.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174889.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-15 Phalanx.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174892.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-16 Snake Eyes.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-17 Pallida Mors.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-18 Dream Weaver.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174910.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-19 Cannon Ball - Hard Revenge -.mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174905.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:12 : update: added III/ZX Tunes/2-20 Hidden Track (unlisted).mp3
+Sep 19 01:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:12 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:12 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:12 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:13 : client: [0] closed
+Sep 19 01:14 : client: [1] opened from 127.0.0.1:57305
+Sep 19 01:15 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:15 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:15 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:15 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:15 : player: played "III/ZX Tunes/2-18 Dream Weaver.mp3"
+Sep 19 01:15 : client: [1] closed
+Sep 19 01:16 : client: [2] opened from 127.0.0.1:57313
+Sep 19 01:16 : player: played "III/ZX Tunes/2-18 Dream Weaver.mp3"
+Sep 19 01:16 : ffmpeg/mp3: Skipping 0 bytes of junk at 174892.
+Sep 19 01:16 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:16 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:16 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:18 : client: [2] closed
+Sep 19 01:19 : client: [3] opened from 127.0.0.1:57341
+Sep 19 01:19 : client: [3] closed
+Sep 19 01:19 : client: [4] opened from 127.0.0.1:57343
+Sep 19 01:19 : ffmpeg/mp3: Skipping 0 bytes of junk at 174910.
+Sep 19 01:19 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:19 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:19 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:19 : player: played "III/ZX Tunes/2-14 Black Burn.mp3"
+Sep 19 01:21 : client: [5] opened from 127.0.0.1:57381
+Sep 19 01:22 : client: [5] closed
+Sep 19 01:22 : ffmpeg/mp3: Skipping 0 bytes of junk at 174890.
+Sep 19 01:22 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:22 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:22 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:23 : player: played "III/ZX Tunes/2-19 Cannon Ball - Hard Revenge -.mp3"
+Sep 19 01:23 : client: [6] opened from 127.0.0.1:57392
+Sep 19 01:23 : client: [6] closed
+Sep 19 01:24 : client: [4] closed
+Sep 19 01:24 : client: [7] opened from 127.0.0.1:57394
+Sep 19 01:24 : client: [7] closed
+Sep 19 01:24 : client: [8] opened from 127.0.0.1:57399
+Sep 19 01:25 : client: [8] closed
+Sep 19 01:25 : client: [9] opened from 127.0.0.1:57404
+Sep 19 01:25 : client: [9] closed
+Sep 19 01:25 : client: [10] opened from 127.0.0.1:57406
+Sep 19 01:25 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:25 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:25 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:25 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:25 : player: played "III/ZX Tunes/2-05 Ogre Claw.mp3"
+Sep 19 01:25 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:25 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:25 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:25 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:26 : player: played "III/ZX Tunes/2-18 Dream Weaver.mp3"
+Sep 19 01:26 : ffmpeg/mp3: Skipping 0 bytes of junk at 174888.
+Sep 19 01:26 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:26 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:26 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:26 : player: played "III/ZX Tunes/1-01 Innocence.mp3"
+Sep 19 01:26 : ffmpeg/mp3: Skipping 0 bytes of junk at 174900.
+Sep 19 01:26 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:26 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:26 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:26 : player: played "III/ZX Tunes/1-04 Green Grass Gradation.mp3"
+Sep 19 01:26 : ffmpeg/mp3: Skipping 0 bytes of junk at 174911.
+Sep 19 01:26 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:26 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:26 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:30 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:30 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:30 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:30 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:31 : player: played "III/ZX Tunes/1-18 Black Burn - Electpital Dance -.mp3"
+Sep 19 01:34 : ffmpeg/mp3: Skipping 0 bytes of junk at 174892.
+Sep 19 01:34 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:34 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:34 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:34 : player: played "III/ZX Tunes/2-18 Dream Weaver.mp3"
+Sep 19 01:37 : ffmpeg/mp3: Skipping 0 bytes of junk at 174910.
+Sep 19 01:37 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:37 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:37 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:37 : player: played "III/ZX Tunes/2-14 Black Burn.mp3"
+Sep 19 01:40 : ffmpeg/mp3: Skipping 0 bytes of junk at 174900.
+Sep 19 01:40 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:40 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:40 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:40 : player: played "III/ZX Tunes/2-19 Cannon Ball - Hard Revenge -.mp3"
+Sep 19 01:43 : ffmpeg/mp3: Skipping 0 bytes of junk at 174911.
+Sep 19 01:43 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:43 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:43 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:43 : player: played "III/ZX Tunes/1-04 Green Grass Gradation.mp3"
+Sep 19 01:45 : player: played "III/ZX Tunes/1-18 Black Burn - Electpital Dance -.mp3"
+Sep 19 01:45 : ffmpeg/mp3: Skipping 0 bytes of junk at 174894.
+Sep 19 01:45 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:45 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:45 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:48 : ffmpeg/mp3: Skipping 0 bytes of junk at 174892.
+Sep 19 01:48 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:48 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:48 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:48 : player: played "III/ZX Tunes/2-18 Dream Weaver.mp3"
+Sep 19 01:49 : client: [10] closed
+Sep 19 01:49 : client: [11] opened from 127.0.0.1:57585
+Sep 19 01:50 : client: [11] closed
+Sep 19 01:50 : client: [12] opened from 127.0.0.1:57600
+Sep 19 01:51 : ffmpeg/mp3: Skipping 0 bytes of junk at 174900.
+Sep 19 01:51 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:51 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:51 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:51 : player: played "III/ZX Tunes/2-14 Black Burn.mp3"
+Sep 19 01:53 : client: [12] closed
+Sep 19 01:53 : client: [13] opened from 127.0.0.1:57605
+Sep 19 01:53 : client: [13] closed
+Sep 19 01:53 : client: [14] opened from 127.0.0.1:57607
+Sep 19 01:54 : ffmpeg/mp3: Skipping 0 bytes of junk at 174910.
+Sep 19 01:54 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:54 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:54 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:58 : config: inotify: auto_update was disabled. enable during compilation phase
+Sep 19 01:58 : config: option 'enabled' on line 26 was not recognized
+Sep 19 01:58 : ffmpeg/mp3: Skipping 0 bytes of junk at 174900.
+Sep 19 01:58 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:58 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:58 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:58 : client: [0] opened from 127.0.0.1:57701
+Sep 19 01:58 : ffmpeg/mp3: Skipping 0 bytes of junk at 174911.
+Sep 19 01:58 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 01:58 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 01:58 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 01:59 : player: played "III/ZX Tunes/1-04 Green Grass Gradation.mp3"
+Sep 19 02:03 : ffmpeg/mp3: Skipping 0 bytes of junk at 174892.
+Sep 19 02:03 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 02:03 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 02:03 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 02:03 : player: played "III/ZX Tunes/1-18 Black Burn - Electpital Dance -.mp3"
+Sep 19 02:06 : ffmpeg/mp3: Skipping 0 bytes of junk at 174910.
+Sep 19 02:06 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Sep 19 02:06 : ffmpeg/mp3: decoding for stream 1 failed
+Sep 19 02:06 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Sep 19 02:06 : client: [0] closed
+Sep 19 02:06 : player: played "III/ZX Tunes/2-14 Black Burn.mp3"

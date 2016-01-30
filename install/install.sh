@@ -1,20 +1,9 @@
 #!/bin/sh
 
-# Get current dir (so run this script from anywhere)
-
-export DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
 # Install prezto (https://github.com/dstibrany/prezto)
 if [ ! -d $HOME/.zprezto ]; then
     echo "Installing prezto"
     git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-fi
-
-#chsh -s /bin/zsh
-
-# Install OS X specific stuff
-if [ "$(uname)" == "Darwin" -a -f "$DOTFILES_DIR/install/osx.sh" ]; then
-    source "$DOTFILES_DIR/install/osx.sh"
 fi
 
 if [ $SHELL != "/bin/zsh" ]; then
@@ -94,50 +83,4 @@ fi
 if [ ! -f $HOME/.bashrc ]; then
     echo "Installing Bash settings"
     env RCRC=$HOME/dotfiles/rcrc rcup bashrc
-fi
-if [ ! -f $HOME/.mbsyncrc ]; then
-    echo "Installing mbsync settings"
-    #env RCRC=$HOME/dotfiles/rcrc rcup mbsyncrc
-    cp $HOME/dotfiles/mbsyncrc ~/.mbsyncrc 
-fi
-
-env RCRC=$HOME/dotfiles/rcrc rcup
-
-# Copy config folders
-if [ ! -d $HOME/.vim/ ]; then
-    echo "Installing Vim settings"
-    cp vim ~/.vim
-fi
-
-if [ ! -d $HOME/.nvim/ ]; then
-    echo "Installing Neovim settings"
-    cp nvim ~/.nvim
-fi
-
-# mpd configs
-if [ ! -d $HOME/.mpd/ ]; then
-    echo "Installing MPD settings"
-    mkdir ~/.mpd
-    cp mpd/mpd.conf ~/.mpd/mpd.conf
-    cp mpd/mpd.db ~/.mpd/mpd.db
-    cp mpd/mpd.log ~/.mpd/mpd.log
-    cp mpd/mpd.pid ~/.mpd/mpd.pid
-    cp mpd/mpdstate ~/.mpd/mpdstate
-    cp mpd/sticker.sql ~/.mpd/sticker.sql
-    cp mpd/tag_cache ~/.mpd/tag_cache
-    cp mpd/playlists/ ~/.mpd/playlists
-fi
-
-# ncmpcpp configs
-if [ ! -d $HOME/.ncmpcpp/ ]; then
-    echo "Installing ncmpcpp settings"
-    mkdir ~/.ncmpcpp
-    cp ncmpcpp/config ~/.ncmpcpp/config
-    touch ~/.ncmpcpp/error.log
-fi
-
-# Gurren Lagann quotes for fortune
-if [ ! -f /usr/local/Cellar/fortune/9708/share/games/fortunes/gurren ]; then
-    echo "Installing fortune files"
-    cp gurren /usr/local/Cellar/fortune/9708/share/games/fortunes/gurren
 fi

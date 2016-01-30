@@ -3,17 +3,28 @@
 BIN_NAME=$(basename $0)
 COMMAND_NAME=$1
 SUB_COMMAND_NAME=$2
+export DOTFILES_DIR=$HOME/dotfiles
 
 sub_help () {
     echo "Usage: $BIN_NAME <command>\n"
     echo "Commands:"
+    echo "   boot               Installs settings for OS X."
     echo "   help               This help message"
     echo "   edit               Open dotfiles in default editor ($EDITOR) and Git GUI ($GIT_GUI)"
     echo "   reload             Reload dotfiles"
-    echo "   update             Update OS X Applications, Homebrew (cask), npm, and Ruby packages"
-    echo "   osx                Apply OS X system defaults"
-    echo "   dock               Apply OS X Dock settings"
+    if [ "$(uname)" == "Darwin" ]; then
+	echo "   update             Update OS X Applications, Homebrew (cask), npm, and Ruby packages"
+	echo "   osx                Apply OS X system defaults"
+	echo "   dock               Apply OS X Dock settings"
+    fi
     echo "   go                 Apply go settings"
+}
+
+sub_boot () {
+	echo "Setting up OS X"
+	clear
+	source "$DOTFILES_DIR/install.sh"
+#	source "$DOTFILES_DIR/install/osx/osx.sh"
 }
 
 sub_edit () {
@@ -21,7 +32,7 @@ sub_edit () {
 }
 
 sub_reload () {
-    source ~/.bash_profile && echo "Bash reloaded."
+    source ~/.zprofile && echo "Zsh reloaded."
 }
 
 sub_update () {
@@ -66,9 +77,9 @@ case $COMMAND_NAME in
         shift
         sub_${COMMAND_NAME} $@
         if [ $? = 127 ]; then
-            echo "'$COMMAND_NAME' is not a known command or has errors." >&2
-            sub_help
-            exit 1
+	    echo "'$COMMAND_NAME' is not a known command or has errors." >&2
+	    sub_help
+	    exit 1
         fi
         ;;
 esac

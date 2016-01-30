@@ -15,10 +15,25 @@
         	ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
     	</autogen>
 	</item>
+	
+	<item>
+	  <name>Greek Layer Emacs</name>
+	  <appendix>Right Option to F17</appendix>
+	  <only>EMACS</only>
+	  <identifier>space_cadet.greek_layer_emacs</identifier>
+
+	  <autogen>
+	    --KeyToKey--
+	    KeyCode::OPTION_R,
+	    KeyCode::F17
+	  </autogen>
+	  
+	</item>
 
 	<item>
     	<name>Greek Layer</name>
     	<appendix>Right Option key activates the Greek key layer.</appendix>
+    	<not>EMACS</not>
 	
     	<identifier>space_cadet.greek_layer</identifier>
 	
@@ -503,7 +518,8 @@
     	<appendix>The Unicode Hex Input keyboard layout disables these keys for some reason.</appendix>
 	
     	<identifier>space_cadet.fix_opt_arrows</identifier>
-	
+	    <not>EMACS</not>
+	    
     	<autogen>
         	--KeyToKey--
         	KeyCode::B, VK_OPTION | VK_SHIFT,
@@ -539,6 +555,7 @@
     	<appendix>Right Command key activates the Math key layer.</appendix>
 	
     	<identifier>space_cadet.math_layer</identifier>
+    	<not>EMACS</not>
 	
     	<autogen>
         	--KeyToKey--

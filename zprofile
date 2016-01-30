@@ -17,7 +17,7 @@ fi
 # Editors
 #
 
-export EDITOR='emacs'
+export EDITOR='emacsclient'
 export VISUAL='nano'
 export PAGER='less'
 
@@ -41,6 +41,8 @@ typeset -gU cdpath fpath mailpath path
 #   $cdpath
 # )
 
+export PATH=$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH
+
 # Set the list of directories that Zsh searches for programs.
 path=(
   /usr/local/{bin,sbin}
@@ -48,9 +50,13 @@ path=(
 )
 
 # Add the GOROOT-based install location to my path
-export PATH=$PATH:/usr/local/opt/go/libexec/bin
+#export PATH=$PATH:/usr/bin
+#export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export GOPATH="$HOME/goprojects"
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+export PATH=$PATH:${JAVA_HOME}/bin
+export PATH=$PATH:/Users/danielmuckerman/.gem/ruby/2.2.0/bin
 
 #
 # Less
@@ -88,3 +94,40 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # The orginal version is saved in .zprofile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
+
+bid() {
+local shortname location
+# combine all args as regex
+# (and remove ".app" from the end if it exists due to autocomplete)
+	shortname=$(echo "${@%%.app}"|sed 's/ /.*/g')
+# if the file is a full match in apps folder, roll with it
+if [ -d "/Applications/$shortname.app" ]; then
+		location="/Applications/$shortname.app"
+else # otherwise, start searching
+		location=$(mdfind -onlyin /Applications -onlyin ~/Applications -onlyin /Developer/Applications 'kMDItemKind==Application'|awk -F '/' -v re="$shortname" 'tolower($NF) ~ re {print $0}'|head -n1)
+fi
+# No results? Die.
+	[[ -z $location || $location = "" ]] && echo "$1 not found, I quit" && return
+# Otherwise, find the bundleid using spotlight metadata
+	bundleid=$(mdls -name kMDItemCFBundleIdentifier -r "$location")
+# return the result or an error message
+	[[ -z $bundleid || $bundleid = "" ]] && echo "Error getting bundle ID for \"$@\"" || echo "$location: $bundleid"
+}
+
+function setjdk() {
+  if [ $# -ne 0 ]; then
+   removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
+   if [ -n "${JAVA_HOME+x}" ]; then
+    removeFromPath $JAVA_HOME
+   fi
+   export JAVA_HOME=`/usr/libexec/java_home -v $@`
+   export PATH=$JAVA_HOME/bin:$PATH
+  fi
+ }
+ function removeFromPath() {
+  export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
+ }
+ setjdk 1.6
+
+export WOLFRAM_APPID='R3KHQ2-2T2769PP4P'
+export LC_CTYPE="utf-8"

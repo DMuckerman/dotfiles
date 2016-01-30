@@ -1,17 +1,21 @@
 #!/bin/sh
 
 # Install Homebrew & brew-cask
+/usr/bin/which -s brew
+if [[ $? != 0 ]] ; then
+    # Install Homebrew
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap caskroom/cask
-brew install brew-cask
-brew tap caskroom/versions
-brew tap thoughtbot/formulae
+brew tap caskroom/cask &> /dev/null
+brew install brew-cask &> /dev/null
+brew tap caskroom/versions &> /dev/null
+brew tap thoughtbot/formulae &> /dev/null
 
 # Install brew & brew-cask packages
 
-source "$DOTFILES_DIR/install/brew.sh"
-source "$DOTFILES_DIR/install/brew-cask.sh"
+#source "$DOTFILES_DIR/install/brew.sh"
+#source "$DOTFILES_DIR/install/brew-cask.sh"
 
 # Setup some helpful stuff for go
 source "$DOTFILES_DIR/install/go.sh"

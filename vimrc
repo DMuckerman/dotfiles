@@ -1,4 +1,4 @@
-" Ensure Vim Plug is installed
+ " Ensure Vim Plug is installed
 if empty(glob('~/.vim/autoload/plug.vim'))
 	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
 		\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -8,67 +8,47 @@ endif
 " Vim Plug plugins
 call plug#begin('~/.vim/plugged')
 	" Misc stuff
-	Plug 'kien/rainbow_parentheses.vim'
 	Plug 'sjl/gundo.vim'
 	Plug 'jphustman/Align.vim'
-	Plug 'vimwiki/vimwiki'
 	Plug 'majutsushi/tagbar'
 	
 	" Search
-	Plug 'kien/ctrlp.vim'
+	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'airblade/vim-rooter'
 
 	" UI stuff
 	Plug 'bling/vim-airline'
 	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 	Plug 'jaxbot/semantic-highlight.vim'
-	Plug 'gcmt/tube.vim'
 	Plug 'kien/rainbow_parentheses.vim'
 
-	" Themes
-	Plug 'ajh17/Spacegray.vim'
-	Plug 'altercation/vim-colors-solarized'
-	Plug 'chriskempson/base16-vim'
-	
-	" Emoji
-	Plug 'junegunn/vim-emoji'
-
 	" Writing/notes
-	Plug 'jceb/vim-orgmode'
-	Plug 'tpope/vim-markdown'
+	Plug 'plasticboy/vim-markdown'
 	Plug 'nelstrom/vim-markdown-folding'
 	Plug 'beloglazov/vim-online-thesaurus'
+	Plug 'xolox/vim-notes'
 
-	" Org-mode
-	Plug 'utl.vim'
-	Plug 'tpope/vim-repeat'
-	Plug 'taglist.vim'
-	Plug 'tpope/vim-speeddating'
-	Plug 'chrisbra/NrrwRgn'
-	Plug 'SyntaxRange'
+	" Markdown preview
+	Plug 'suan/vim-instant-markdown'
 
 	" Complicated stuff
 	Plug 'Shougo/neocomplete.vim'
 	
 	" More syntaxes
-	Plug 'scrooloose/syntastic'
-	Plug 'toyamarinyon/vim-swift'
-	Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 	Plug 'xolox/vim-easytags'
 	Plug 'xolox/vim-misc'
-	Plug 'OmniCppComplete'
-	Plug 'kchmck/vim-coffee-script'
 
-	" Writing stuff
-	Plug 'junegunn/goyo.vim'
-	Plug 'junegunn/limelight.vim'
-	Plug 'reedes/vim-pencil'
+	" C#
+	Plug 'OmniSharp/omnisharp-vim'
+	Plug 'tpope/vim-dispatch'
+	Plug 'ctrlpvim/ctrlp.vim'
+	Plug 'scrooloose/syntastic'
 call plug#end()
 
 " Set colorscheme and font
 set t_Co=256
 "set guifont=Menlo\ for\ Powerline:h12
-set guifont=Menlo\ for\ Powerline:h12
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
 
 " More convienent escape
 inoremap kj <ESC>
@@ -94,26 +74,16 @@ set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 
 set scrolloff=3 " Keep at least 3 lines before cursor
 
-" iTerm for Tube
-let g:tube_terminal = "iterm"
-
 " Airline
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
-
-" Org-mode settings
-let g:org_heading_shade_leading_stars = 1
 
 " NERDTree toggle
 map <F8> :NERDTreeToggle<CR>
 
 " More authentic Molokai
 :let g:molokai_original = 1
-
-" vim-orgmode
-:let g:org_export_emacs="/usr/local/bin/emacs"
-:let g:org_export_init_script="~/.emacs.d/init.el"
 
 " Always on rainbow parentheses
 au VimEnter * RainbowParenthesesToggle
@@ -200,18 +170,50 @@ au! FileType perl :SemanticHighlight
 au! FileType ruby :SemanticHighlight
 au! FileType clojure :SemanticHighlight
 
-" Limelight on Goyo
-autocmd User GoyoEnter Limelight
-autocmd User GoyoLeave Limelight!
-
-augroup pencil
-  autocmd!
-  autocmd FileType markdown,mkd call pencil#init()
-  autocmd FileType text         call pencil#init()
-augroup END
-
 nnoremap <C-Tab> :bn<cr>
 nnoremap <C-S-Tab> :bp<cr>
+
+" C#
+let g:OmniSharp_selector_ui = 'ctrlp'  " Use ctrlp.vim
+augroup omnisharp_commands
+    autocmd!
+
+    "Set autocomplete function to OmniSharp (if not using YouCompleteMe completion plugin)
+    autocmd FileType cs setlocal omnifunc=OmniSharp#Complete
+
+    " Synchronous build (blocks Vim)
+    "autocmd FileType cs nnoremap <F5> :wa!<cr>:OmniSharpBuild<cr>
+    " Builds can also run asynchronously with vim-dispatch installed
+    autocmd FileType cs nnoremap <leader>b :wa!<cr>:OmniSharpBuildAsync<cr>
+    " automatic syntax check on events (TextChanged requires Vim 7.4)
+    autocmd BufEnter,TextChanged,InsertLeave *.cs SyntasticCheck
+
+    " Automatically add new cs files to the nearest project on save
+    autocmd BufWritePost *.cs call OmniSharp#AddToProject()
+
+    "show type information automatically when the cursor stops moving
+    autocmd CursorHold *.cs call OmniSharp#TypeLookupWithoutDocumentation()
+
+    "The following commands are contextual, based on the current cursor position.
+
+    autocmd FileType cs nnoremap gd :OmniSharpGotoDefinition<cr>
+    autocmd FileType cs nnoremap <leader>fi :OmniSharpFindImplementations<cr>
+    autocmd FileType cs nnoremap <leader>ft :OmniSharpFindType<cr>
+    autocmd FileType cs nnoremap <leader>fs :OmniSharpFindSymbol<cr>
+    autocmd FileType cs nnoremap <leader>fu :OmniSharpFindUsages<cr>
+    "finds members in the current buffer
+    autocmd FileType cs nnoremap <leader>fm :OmniSharpFindMembers<cr>
+    " cursor can be anywhere on the line containing an issue
+    autocmd FileType cs nnoremap <leader>x  :OmniSharpFixIssue<cr>
+    autocmd FileType cs nnoremap <leader>fx :OmniSharpFixUsings<cr>
+    autocmd FileType cs nnoremap <leader>tt :OmniSharpTypeLookup<cr>
+    autocmd FileType cs nnoremap <leader>dc :OmniSharpDocumentation<cr>
+    "navigate up by method/property/field
+    autocmd FileType cs nnoremap <C-K> :OmniSharpNavigateUp<cr>
+    "navigate down by method/property/field
+    autocmd FileType cs nnoremap <C-J> :OmniSharpNavigateDown<cr>
+
+augroup END
 
 function EmojiHi()
 	let time = strftime("%H")
@@ -246,6 +248,7 @@ autocmd VimEnter * AirlineTheme luna
 
 syntax enable
 set background=dark
+colorscheme warez
 let g:airline_theme='luna'
 
 " Thesaurus

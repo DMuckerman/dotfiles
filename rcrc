@@ -1,2 +1,2 @@
-EXCLUDES="README.md LICENSE install.sh brew.sh brew-cask.sh osx.sh go.sh remote-install.sh"
-DOTFILES_DIRS="$HOME/dotfiles-local $HOME/dotfiles"
+EXCLUDES="README.md LICENSE install.sh brew.sh brew-cask.sh osx.sh go.sh remote-install.sh install bin gurren"
+DOTFILES_DIRS="$HOME/dotfiles"

@@ -22,7 +22,6 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'bling/vim-airline'
 	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 	Plug 'jaxbot/semantic-highlight.vim'
-	Plug 'gcmt/tube.vim'
 	Plug 'kien/rainbow_parentheses.vim'
 
 	" Themes
@@ -38,6 +37,7 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'tpope/vim-markdown'
 	Plug 'nelstrom/vim-markdown-folding'
 	Plug 'beloglazov/vim-online-thesaurus'
+	Plug 'xolox/vim-notes'
 
 	" Org-mode
 	Plug 'utl.vim'

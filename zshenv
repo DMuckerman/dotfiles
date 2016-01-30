@@ -16,3 +16,12 @@ if [ -d "$GHC_DOT_APP" ]; then
   export PATH="${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
 fi
 
+# Go
+if [ -d /usr/local/opt/go/libexec ]; then
+    export GOROOT=/usr/local/opt/go/libexec
+fi
+
+if [ -d ~/.gows ]; then
+    source ~/.gows/gows
+fi
+

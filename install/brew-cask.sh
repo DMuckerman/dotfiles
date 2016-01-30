@@ -30,6 +30,7 @@ brew cask install java6
 brew cask install karabiner
 brew cask install keepingyouawake
 brew cask install limechat
+brew cask install lunchy
 brew cask install mysqlworkbench
 brew cask install omnioutliner
 brew cask install omnipresence
