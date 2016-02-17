@@ -61,7 +61,7 @@ alias twi2gif='perl ~/twitter2gif.pl'
 alias yolo='git commit -am "DEAL WITH IT" && git push -f origin master'
 
 # Linux specific bindings
-if [[ "$(uname)" == "linux-gnu" ]]; then
+if [[ "$(uname)" == "Linux" ]]; then
     # Alias xclip to OSX's clipboard commands
     alias pbcopy = 'xclip -selection c'
     alias pbpaste = 'xclip -selection clipboard -o'
@@ -71,13 +71,10 @@ if [[ "$(uname)" == "linux-gnu" ]]; then
   
     # ssh-agent stuff
     export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
-
-    # hledger path
-    export LEDGER_FILE=/home/dan/Dropbox/hledger.journal
 fi
 
 # # OSX specific bindings
-if [[ "$(uname)" == "darwin" ]]; then
+if [[ "$(uname)" == "Darwin" ]]; then
     # cd to iCloud Drive folder
     alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
     
@@ -99,9 +96,6 @@ if [[ "$(uname)" == "darwin" ]]; then
 
     export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
     export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
-
-    # hledger path
-    export LEDGER_FILE=/Users/danielmuckerman/Dropbox/hledger.journal
 fi
 
 # cdpath yay

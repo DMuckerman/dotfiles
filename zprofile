@@ -60,6 +60,15 @@ export PATH=$PATH:/Users/danielmuckerman/.gem/ruby/2.2.0/bin
 export PATH=$PATH:/Users/danielmuckerman/.local/bin
 export PKG_CONFIG_PATH=/usr/local/Cellar/zlib/1.2.8/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig
 
+if [[ "$(uname)" == "Linux" ]]; then
+    # hledger path
+    export LEDGER_FILE=/home/dan/Dropbox/hledger.journal
+fi
+if [[ "$(uname)" == "Darwin" ]]; then
+    # hledger path
+    export LEDGER_FILE=/Users/danielmuckerman/Dropbox/hledger.journal
+fi
+
 #
 # Less
 #
