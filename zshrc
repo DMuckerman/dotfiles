@@ -37,7 +37,6 @@ alias df='cd ~/Dataforma'
 alias em='emacsclient -ct'
 alias calorific='guile ~/Guile/calorific.scm'
 alias friends="friends --filename ~/Dropbox/friends.md"
-alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
 alias latexmk='latexmk -pdf -pvc -xelatex'
 alias hledger-ui='hledger-ui --theme=terminal'
 alias emacs='emacs -nw'
@@ -79,6 +78,9 @@ fi
 
 # # OSX specific bindings
 if [[ "$(uname)" == "darwin" ]]; then
+    # cd to iCloud Drive folder
+    alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
+    
     # VLC terminal binding
     alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
 
