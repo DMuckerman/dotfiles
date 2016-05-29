@@ -10,7 +10,7 @@ call plug#begin('~/.vim/plugged')
 	" Misc stuff
 	Plug 'sjl/gundo.vim'
 	Plug 'jphustman/Align.vim'
-	Plug 'majutsushi/tagbar'
+	"Plug 'majutsushi/tagbar'
 	
 	" Search
 	Plug 'ctrlpvim/ctrlp.vim'
@@ -35,7 +35,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'Shougo/neocomplete.vim'
 	
 	" More syntaxes
-	Plug 'xolox/vim-easytags'
+	"Plug 'xolox/vim-easytags'
 	Plug 'xolox/vim-misc'
 
 	" C#
@@ -100,8 +100,8 @@ let mapleader = ","
 " ,q to wrap paragraphs
 nnoremap <leader>q gqip
 
-nnoremap / /\v
-vnoremap / /\v
+"nnoremap / /\v
+"vnoremap / /\v
 set ignorecase
 set smartcase
 set gdefault

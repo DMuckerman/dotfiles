@@ -34,12 +34,14 @@ alias mysql-start='mysql.server start'
 alias mysql-stop='mysql.server stop'
 alias scratch='vim scratch'
 alias df='cd ~/Dataforma'
-alias em='emacsclient -ct'
+alias emt='emacsclient -ct'
+alias em='emacsclient -c'
 alias calorific='guile ~/Guile/calorific.scm'
 alias friends="friends --filename ~/Dropbox/friends.md"
 alias latexmk='latexmk -pdf -pvc -xelatex'
 alias hledger-ui='hledger-ui --theme=terminal'
 alias emacs='emacs -nw'
+alias of2='~/Applications/ofexport2/bin/of2'
 
 unalias sl
 
@@ -55,7 +57,7 @@ alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 alias dfssh="ssh root@192.168.121.47"
 
 # Perl scripts
-alias twi2gif='perl ~/twitter2gif.pl'
+alias twi2gif='perl ~/Developer/perlprojects/twitter2gif.pl'
 
 # YOLO
 alias yolo='git commit -am "DEAL WITH IT" && git push -f origin master'
@@ -96,6 +98,8 @@ if [[ "$(uname)" == "Darwin" ]]; then
 
     export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
     export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
+
+    export PATH="~/Applications/ofexport2/bin:$PATH"
 fi
 
 # cdpath yay
@@ -113,3 +117,31 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 if [[ "$(uname)" == "darwin" ]]; then
     test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 fi
+
+source ~/.zplug/zplug
+
+zplug "supercrabtree/k"
+
+# Install plugins if there are plugins that have not been installed
+if ! zplug check; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+# Then, source plugins and add commands to $PATH
+zplug load
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Scala Env stuff
+#export SCALAENV_ROOT=/usr/local/var/scalaenv
+#eval "$(scalaenv init -)"
+
+# Enable Ctrl-x-e to edit command line
+autoload -U edit-command-line
+# Emacs style
+zle -N edit-command-line
+bindkey '^xe' edit-command-line
+bindkey '^x^e' edit-command-line

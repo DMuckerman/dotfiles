@@ -5,3 +5,5 @@ export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
 
 bind '"\C-q": menu-complete'
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

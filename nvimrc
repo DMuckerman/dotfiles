@@ -12,7 +12,7 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'sjl/gundo.vim'
 	Plug 'jphustman/Align.vim'
 	Plug 'vimwiki/vimwiki'
-	Plug 'majutsushi/tagbar'
+"	Plug 'majutsushi/tagbar'
 	
 	" Search
 	Plug 'kien/ctrlp.vim'
@@ -55,7 +55,7 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'scrooloose/syntastic'
 	Plug 'toyamarinyon/vim-swift'
 	Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
-	Plug 'xolox/vim-easytags'
+	"Plug 'xolox/vim-easytags'
 	Plug 'xolox/vim-misc'
 	Plug 'OmniCppComplete'
 	Plug 'kchmck/vim-coffee-script'
@@ -130,8 +130,6 @@ let mapleader = ","
 " ,q to wrap paragraphs
 nnoremap <leader>q gqip
 
-nnoremap / /\v
-vnoremap / /\v
 set ignorecase
 set smartcase
 set gdefault

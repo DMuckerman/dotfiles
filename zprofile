@@ -18,7 +18,7 @@ fi
 #
 
 export EDITOR='emacsclient'
-export VISUAL='nano'
+export VISUAL='emacsclient'
 export PAGER='less'
 
 #
@@ -26,7 +26,7 @@ export PAGER='less'
 #
 
 if [[ -z "$LANG" ]]; then
-  export LANG='en_US.UTF-8'
+    export LANG='en_US.UTF-8'
 fi
 
 #
@@ -41,12 +41,12 @@ typeset -gU cdpath fpath mailpath path
 #   $cdpath
 # )
 
-export PATH=$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH
+#export PATH=$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH
 
 # Set the list of directories that Zsh searches for programs.
 path=(
-  /usr/local/{bin,sbin}
-  $path
+    /usr/local/{bin,sbin}
+    $path
 )
 
 # Add the GOROOT-based install location to my path
@@ -58,7 +58,12 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
 export PATH=$PATH:${JAVA_HOME}/bin
 export PATH=$PATH:/Users/danielmuckerman/.gem/ruby/2.2.0/bin
 export PATH=$PATH:/Users/danielmuckerman/.local/bin
+export PATH=$PATH:/Users/danielmuckerman/.multirust/toolchains/stable/cargo/bin
 export PKG_CONFIG_PATH=/usr/local/Cellar/zlib/1.2.8/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig
+export OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include
+export OPENSSL_ROOT_DIR=/usr/local/opt/openssl
+export RUST_SRC_PATH=~/src/rust/rustc-1.6.0/src
+export PATH="/Users/danielmuckerman/.cask/bin:$PATH"
 
 if [[ "$(uname)" == "Linux" ]]; then
     # hledger path
@@ -100,7 +105,7 @@ DOTFILES_DIR="$HOME/dotfiles"
 export DOTFILES_DIR
 
 # Enable shims and autocompletion for rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+#if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # Setting PATH for Python 2.7
 # The orginal version is saved in .zprofile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
@@ -113,9 +118,9 @@ bid() {
     shortname=$(echo "${@%%.app}"|sed 's/ /.*/g')
     # if the file is a full match in apps folder, roll with it
     if [ -d "/Applications/$shortname.app" ]; then
-	location="/Applications/$shortname.app"
+				location="/Applications/$shortname.app"
     else # otherwise, start searching
-	location=$(mdfind -onlyin /Applications -onlyin ~/Applications -onlyin /Developer/Applications 'kMDItemKind==Application'|awk -F '/' -v re="$shortname" 'tolower($NF) ~ re {print $0}'|head -n1)
+				location=$(mdfind -onlyin /Applications -onlyin ~/Applications -onlyin /Developer/Applications 'kMDItemKind==Application'|awk -F '/' -v re="$shortname" 'tolower($NF) ~ re {print $0}'|head -n1)
     fi
     # No results? Die.
     [[ -z $location || $location = "" ]] && echo "$1 not found, I quit" && return
@@ -127,12 +132,12 @@ bid() {
 
 function setjdk() {
     if [ $# -ne 0 ]; then
-	removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
-	if [ -n "${JAVA_HOME+x}" ]; then
-	    removeFromPath $JAVA_HOME
-	fi
-	export JAVA_HOME=`/usr/libexec/java_home -v $@`
-	export PATH=$JAVA_HOME/bin:$PATH
+				removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
+				if [ -n "${JAVA_HOME+x}" ]; then
+						removeFromPath $JAVA_HOME
+				fi
+				export JAVA_HOME=`/usr/libexec/java_home -v $@`
+				export PATH=$JAVA_HOME/bin:$PATH
     fi
 }
 function removeFromPath() {
@@ -140,7 +145,24 @@ function removeFromPath() {
 }
 setjdk 1.6
 
+
+# Omnifocus
+# of "Test! @house ::misc #tom 8am #tom 8pm //notes"
+function of () {
+    if [[ $# -eq 0 ]]; then
+				open -a "OmniFocus"
+    else
+				osascript <<EOT
+    tell application "OmniFocus"
+      parse tasks into default document with transport text "$@"
+    end tell
+EOT
+    fi
+}
+
+export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+export LC_TYPE=en_US.UTF-8
 export WOLFRAM_APPID='R3KHQ2-2T2769PP4P'
 export LC_CTYPE="utf-8"
