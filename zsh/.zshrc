@@ -14,6 +14,9 @@ fi
 # Load MOTD {{{
 #if [[ -e $HOME/.motd ]]; then cat $HOME/.motd; fi
 fortune gurren
+if [[ "$OSTYPE" == linux* ]]; then
+		echo
+fi
 # }}}
 
 # Customize to your needs...
@@ -64,32 +67,32 @@ alias yolo='git commit -am "DEAL WITH IT" && git push -f origin master'
 
 # Linux specific bindings
 if [[ "$(uname)" == "Linux" ]]; then
-    # Alias xclip to OSX's clipboard commands
-    alias pbcopy='xclip -selection c'
-    alias pbpaste='xclip -selection clipboard -o'
+		# Alias xclip to OSX's clipboard commands
+		alias pbcopy='xclip -selection c'
+		alias pbpaste='xclip -selection clipboard -o'
   
-    # Lock screen
-    alias lock='i3lock -c 6441A5'
+		# Lock screen
+		alias lock='i3lock -c 6441A5'
   
-    # ssh-agent stuff
-    export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+		# ssh-agent stuff
+		export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 fi
 
 # # OSX specific bindings
 if [[ "$(uname)" == "Darwin" ]]; then
-    # cd to iCloud Drive folder
-    alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
+		# cd to iCloud Drive folder
+		alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
     
-    # VLC terminal binding
-    alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
+		# VLC terminal binding
+		alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
 
-    if brew command command-not-found-init > /dev/null; then
+		if brew command command-not-found-init > /dev/null; then
 				eval "$(brew command-not-found-init)";
-    fi
+		fi
 
-    # CPAN stuff
-    PERL_MB_OPT="--install_base \"/Users/danielmuckerman/perl5\""; export PERL_MB_OPT;
-    PERL_MM_OPT="INSTALL_BASE=/Users/danielmuckerman/perl5"; export PERL_MM_OPT;
+		# CPAN stuff
+		PERL_MB_OPT="--install_base \"/Users/danielmuckerman/perl5\""; export PERL_MB_OPT;
+		PERL_MM_OPT="INSTALL_BASE=/Users/danielmuckerman/perl5"; export PERL_MM_OPT;
 fi
 
 # cdpath yay
@@ -105,7 +108,7 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 # iTerm2 Shell Integration
 if [[ "$(uname)" == "darwin" ]]; then
-    test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+		test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 fi
 
 source ~/.zplug/zplug
@@ -114,10 +117,10 @@ zplug "supercrabtree/k"
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
+		printf "Install? [y/N]: "
+		if read -q; then
+				echo; zplug install
+		fi
 fi
 
 # Then, source plugins and add commands to path
