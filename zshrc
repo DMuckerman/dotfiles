@@ -65,8 +65,8 @@ alias yolo='git commit -am "DEAL WITH IT" && git push -f origin master'
 # Linux specific bindings
 if [[ "$(uname)" == "Linux" ]]; then
     # Alias xclip to OSX's clipboard commands
-    alias pbcopy = 'xclip -selection c'
-    alias pbpaste = 'xclip -selection clipboard -o'
+    alias pbcopy='xclip -selection c'
+    alias pbpaste='xclip -selection clipboard -o'
   
     # Lock screen
     alias lock='i3lock -c 6441A5'
@@ -84,7 +84,7 @@ if [[ "$(uname)" == "Darwin" ]]; then
     alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
 
     if brew command command-not-found-init > /dev/null; then
-	eval "$(brew command-not-found-init)";
+				eval "$(brew command-not-found-init)";
     fi
 
     # CPAN stuff
