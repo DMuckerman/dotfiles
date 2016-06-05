@@ -5,9 +5,9 @@
 brew update
 brew upgrade --all
 
-# Install rcm for dotfile management
+# Install GNU Stow for dotfile management
 
-brew install rcm
+brew install stow
 
 # Tap homebrew/x11, for xpdf
 

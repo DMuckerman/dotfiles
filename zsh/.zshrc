@@ -90,16 +90,6 @@ if [[ "$(uname)" == "Darwin" ]]; then
     # CPAN stuff
     PERL_MB_OPT="--install_base \"/Users/danielmuckerman/perl5\""; export PERL_MB_OPT;
     PERL_MM_OPT="INSTALL_BASE=/Users/danielmuckerman/perl5"; export PERL_MM_OPT;
-
-    # GNU stuff
-    export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
-    export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
-    export PATH="$HOME/.local/bin:$PATH"
-
-    export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
-    export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
-
-    export PATH="~/Applications/ofexport2/bin:$PATH"
 fi
 
 # cdpath yay
@@ -130,7 +120,7 @@ if ! zplug check; then
     fi
 fi
 
-# Then, source plugins and add commands to $PATH
+# Then, source plugins and add commands to path
 zplug load
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
