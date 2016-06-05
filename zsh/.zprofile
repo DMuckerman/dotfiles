@@ -65,6 +65,18 @@ export OPENSSL_ROOT_DIR=/usr/local/opt/openssl
 export RUST_SRC_PATH=~/src/rust/rustc-1.6.0/src
 export PATH="/Users/danielmuckerman/.cask/bin:$PATH"
 
+if [[ "$OSTYPE" == darwin* ]]; then
+		# GNU stuff
+		export PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
+		export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+		export PATH="$HOME/.local/bin:$PATH"
+
+		export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+		export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
+
+		export PATH="~/Applications/ofexport2/bin:$PATH"
+fi
+
 if [[ "$(uname)" == "Linux" ]]; then
     # hledger path
     export LEDGER_FILE=/home/dan/Dropbox/hledger.journal

@@ -24,15 +24,3 @@ fi
 if [ -d ~/.gows ]; then
     source ~/.gows/gows
 fi
-
-if [[ "$(uname)" == "Darwin" ]]; then
-		# GNU stuff
-		export PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
-		export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
-		export PATH="$HOME/.local/bin:$PATH"
-
-		export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
-		export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
-
-		export PATH="~/Applications/ofexport2/bin:$PATH"
-fi
