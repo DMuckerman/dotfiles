@@ -13,7 +13,7 @@ fi
 
 # Load MOTD {{{
 #if [[ -e $HOME/.motd ]]; then cat $HOME/.motd; fi
-#fortune gurren
+fortune gurren
 # }}}
 
 # Customize to your needs...
