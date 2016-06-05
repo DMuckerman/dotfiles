@@ -1,3 +1,5 @@
 system/.custom
 bin/subl
 *.swp
+vim/.vim/plugged/*
+nvim/.nvim/plugged/*
