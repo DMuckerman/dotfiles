@@ -10,7 +10,7 @@
 #
 
 if [[ "$OSTYPE" == darwin* ]]; then
-  export BROWSER='open'
+		export BROWSER='open'
 fi
 
 #
@@ -130,35 +130,38 @@ bid() {
     [[ -z $bundleid || $bundleid = "" ]] && echo "Error getting bundle ID for \"$@\"" || echo "$location: $bundleid"
 }
 
-function setjdk() {
-    if [ $# -ne 0 ]; then
-				removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
-				if [ -n "${JAVA_HOME+x}" ]; then
-						removeFromPath $JAVA_HOME
+if [[ "$OSTYPE" == darwin* ]]; then
+		function setjdk() {
+				if [ $# -ne 0 ]; then
+						removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
+						if [ -n "${JAVA_HOME+x}" ]; then
+								removeFromPath $JAVA_HOME
+						fi
+						export JAVA_HOME=`/usr/libexec/java_home -v $@`
+						export PATH=$JAVA_HOME/bin:$PATH
 				fi
-				export JAVA_HOME=`/usr/libexec/java_home -v $@`
-				export PATH=$JAVA_HOME/bin:$PATH
-    fi
-}
-function removeFromPath() {
-    export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
-}
-setjdk 1.6
+		}
+		function removeFromPath() {
+				export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
+		}
+		setjdk 1.6
+fi
 
-
-# Omnifocus
-# of "Test! @house ::misc #tom 8am #tom 8pm //notes"
-function of () {
-    if [[ $# -eq 0 ]]; then
-				open -a "OmniFocus"
-    else
-				osascript <<EOT
+if [[ "$OSTYPE" == darwin* ]]; then
+		# Omnifocus
+		# of "Test! @house ::misc #tom 8am #tom 8pm //notes"
+		function of () {
+				if [[ $# -eq 0 ]]; then
+						open -a "OmniFocus"
+				else
+						osascript <<EOT
     tell application "OmniFocus"
       parse tasks into default document with transport text "$@"
     end tell
 EOT
-    fi
-}
+				fi
+		}
+fi
 
 export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
