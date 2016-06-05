@@ -12,7 +12,7 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'sjl/gundo.vim'
 	Plug 'jphustman/Align.vim'
 	Plug 'vimwiki/vimwiki'
-"	Plug 'majutsushi/tagbar'
+	Plug 'majutsushi/tagbar'
 	
 	" Search
 	Plug 'kien/ctrlp.vim'
@@ -22,6 +22,7 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'bling/vim-airline'
 	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 	Plug 'jaxbot/semantic-highlight.vim'
+	Plug 'gcmt/tube.vim'
 	Plug 'kien/rainbow_parentheses.vim'
 
 	" Themes
@@ -37,7 +38,6 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'tpope/vim-markdown'
 	Plug 'nelstrom/vim-markdown-folding'
 	Plug 'beloglazov/vim-online-thesaurus'
-	Plug 'xolox/vim-notes'
 
 	" Org-mode
 	Plug 'utl.vim'
@@ -55,7 +55,7 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'scrooloose/syntastic'
 	Plug 'toyamarinyon/vim-swift'
 	Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
-	"Plug 'xolox/vim-easytags'
+	Plug 'xolox/vim-easytags'
 	Plug 'xolox/vim-misc'
 	Plug 'OmniCppComplete'
 	Plug 'kchmck/vim-coffee-script'
@@ -130,6 +130,8 @@ let mapleader = ","
 " ,q to wrap paragraphs
 nnoremap <leader>q gqip
 
+nnoremap / /\v
+vnoremap / /\v
 set ignorecase
 set smartcase
 set gdefault
@@ -167,7 +169,7 @@ nnoremap ; :
 " Make sure I can still use ;
 noremap ;; ;
 
-" Open .nvimrc in split
+" Open .vimrc in split
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 
 " Splits
