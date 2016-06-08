@@ -114,6 +114,7 @@ fi
 source ~/.zplug/zplug
 
 zplug "supercrabtree/k"
+zplug "hlissner/zsh-autopair", nice:10
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check; then

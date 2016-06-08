@@ -16,7 +16,7 @@ unamestr=`uname`
 
 # Install OS X specific stuff
 if [ "$unamestr" == "Darwin" ]; then
-    source "$DOTFILES_DIR/install/osx.sh"
+		#    source "$DOTFILES_DIR/install/osx.sh"
 		
 		if [ $SHELL != "/bin/zsh" ]; then
 				echo "Changing shell to Zsh"
@@ -74,6 +74,20 @@ if [ ! -f $HOME/.mbsyncrc ]; then
 		echo "Installing mbsync settings"
 		cp $HOME/dotfiles/mbsyncrc ~/.mbsyncrc 
 fi
+
+# Mpdscribble for scrobbling to Libre.FM
+if [ ! -f $HOME/.mpdscribble/mpdscribble.conf ]; then
+		echo "Installing mpdscribble files"
+		if [ ! -d $HOME/.mpdscribble/ ]; then
+				mkdir $HOME/.mpdscribble/
+		fi
+				if [ "$unamestr" == "Darwin" ]; then
+								cp $HOME/dotfiles/mpdscribble/osx.conf $HOME/.mpdscribble/mpdscribble.conf 
+								elif [ "$unamestr" == "Linux" ]; then
+						cp $HOME/dotfiles/mpdscribble/linux.conf $HOME/.mpdscribble/mpdscribble.conf 
+				fi
+fi
+
 
 # Gurren Lagann quotes for fortune
 if [ "$unamestr" == "Darwin" ]; then
