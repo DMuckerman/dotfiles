@@ -156,7 +156,7 @@ if [[ "$OSTYPE" == darwin* ]]; then
 		function removeFromPath() {
 				export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
 		}
-		setjdk 1.6
+		setjdk 1.8
 fi
 
 if [[ "$OSTYPE" == darwin* ]]; then

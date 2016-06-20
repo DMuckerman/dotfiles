@@ -16,14 +16,14 @@ Install the dotfiles with either Git or curl:
 
 ### Clone with Git
 
-    git clone https://github.com/dmuckerman/dotfiles.git
-    source dotfiles/install.sh
+    git clone https://github.com/dmuckerman/dotfiles.git ~/.dotfiles
+    source ~/.dotfiles/install.sh
 
 ### Remotely install using curl
 
 Alternatively, you can install this into `~/.dotfiles` from remote without Git using curl:
 
-    sh -c "`curl -fsSL https://raw.github.com/webpro/dotfiles/master/remote-install.sh`"
+    sh -c "`curl -fsSL https://raw.github.com/DMuckerman/dotfiles/master/remote-install.sh`"
 
 ## The `dotfiles` command
 

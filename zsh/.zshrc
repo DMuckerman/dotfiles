@@ -24,7 +24,7 @@ fi
 bindkey '^u' universal-argument
 
 # General aliases
-alias dotfiles="~/dotfiles/bin/dotfiles"
+alias dotfiles="~/.dotfiles/bin/dotfiles"
 alias lsa='ls -a'
 alias lsl='ls -l'
 alias lsal='ls -al'
@@ -70,10 +70,10 @@ if [[ "$(uname)" == "Linux" ]]; then
 		# Alias xclip to OSX's clipboard commands
 		alias pbcopy='xclip -selection c'
 		alias pbpaste='xclip -selection clipboard -o'
-  
+
 		# Lock screen
 		alias lock='i3lock -c 6441A5'
-  
+
 		# ssh-agent stuff
 		export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 fi
@@ -82,7 +82,7 @@ fi
 if [[ "$(uname)" == "Darwin" ]]; then
 		# cd to iCloud Drive folder
 		alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
-    
+
 		# VLC terminal binding
 		alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
 

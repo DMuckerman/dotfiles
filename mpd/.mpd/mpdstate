@@ -1,34 +1,15 @@
 sw_volume: 100
 audio_device_state:1:CoreAudio
-audio_device_state:1:my_fifo
 state: pause
-current: 2
-time: 82.686000
+current: 0
+time: 5.480000
 random: 1
 repeat: 1
 single: 0
-consume: 1
+consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/02 Another Winter.mp3
-1:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/04 Sushi Box.mp3
-2:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/05 Shrine Bros.mp3
-3:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/06 Suburban Tram.mp3
-4:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/07 Maki Ya.mp3
-5:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/08 Cheap Shop.mp3
-6:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/09 Rock Club.mp3
-7:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/10 Vegetable Rock.mp3
-8:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/12 Rox 300.mp3
-9:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/13 Gideon Wrath Part I.mp3
-10:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/14 Gideon Wrath Part II.mp3
-11:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/15 Giant Contraband Robot.mp3
-12:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/16 The Dark One.mp3
-13:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/17 Leave the Past Behind.mp3
-14:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/18 Come on Down.mp3
-15:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/19 Party Stronger.mp3
-16:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/21 TechnoMan.mp3
-17:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/22 Subboss Theme.mp3
-18:Anamanaguchi/Scott Pilgrim vs. the World_ The Game (Original Videogame Soundtrack)/23 Just Like in the Movies.mp3
+0:CHiCO/アイのシナリオ/01 アイのシナリオ.mp3
 playlist_end
