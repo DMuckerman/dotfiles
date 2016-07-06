@@ -12521,3 +12521,743 @@ Jun 12 21:13 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: 
 Consider increasing the value for the 'analyzeduration' and 'probesize' options
 2016-06-12 21:14:16.243 mpd[2437:55788] 21:14:16.243 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
 Jun 14 04:21 : client: [8] closed
+Jun 25 01:08 : player: played "CHiCO/アイのシナリオ/01 アイのシナリオ.mp3"
+Jun 25 01:09 : config: inotify: auto_update was disabled. enable during compilation phase
+Jun 25 01:09 : config: option 'enabled' on line 27 was not recognized
+Jun 25 01:09 : ffmpeg/mp3: Skipping 0 bytes of junk at 362763.
+Jun 25 01:09 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 25 01:09 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 25 01:09 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 25 01:09 : client: [0] opened from 127.0.0.1:49238
+Jun 25 17:08 : player: played "CHiCO/アイのシナリオ/01 アイのシナリオ.mp3"
+Jun 25 17:08 : config: inotify: auto_update was disabled. enable during compilation phase
+Jun 25 17:08 : config: option 'enabled' on line 27 was not recognized
+Jun 25 17:08 : ffmpeg/mp3: Skipping 0 bytes of junk at 362763.
+Jun 25 17:08 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 25 17:08 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 25 17:08 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 25 17:08 : client: [0] opened from 127.0.0.1:49294
+Jun 28 01:27 : client: [1] opened from 127.0.0.1:57065
+Jun 28 01:27 : update: updating Area 11/All the Lights in the Sky/03 Euphemia.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 155894.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 116279.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: added Capcom/RockMan EXE Remixes_Originals/Colonel Battle Theme.mp3
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Capcom/RockMan EXE Remixes_Originals/Two of Braves.m4a
+Jun 28 01:27 : update: updating Capcom/Ryuusei no Rockman 1&2 Original Soundtrack/1-36 The Place You Must Return to.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 367209.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Capcom Co., Ltd_/MegaMan Star Force 3/1-07 The Radio World.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 70152.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Capcom Co., Ltd_/MegaMan Star Force 3/1-19 The Day is Won.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 70152.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Capcom Co., Ltd_/MegaMan Star Force 3/1-29 The Cosmowave.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 70151.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Capcom Sound Team/Rockman EXE 5DS & 6 Complete Music Encyclopedia/1-29 The Count -crossover ver.-.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 43697.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Capcom Sound Team/Rockman EXE 5DS & 6 Complete Music Encyclopedia/1-48 A Total War.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 43705.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Capcom Sound Team/ROCKMAN EXE The Complete Works of GAME MUSIC_ Rockman EXE 4 & 4.5 & 5/2-14 The Fighter's Soul.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 174137.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Capcom Sound Team/ROCKMAN EXE The Complete Works of GAME MUSIC_ Rockman EXE 4 & 4.5 & 5/2-41 A Heart's Shadow.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 174135.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Capcom Sound Team/ROCKMAN EXE The Complete Works of GAME MUSIC_ Rockman EXE 4 & 4.5 & 5/2-44 A Total War.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 174130.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Compilations/Epic Journey Through The Galaxy/1-01 The Summer Trance.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 128663.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Compilations/SPLATOON ORIGINAL SOUNDTRACK Splatune/1-01 Opening.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 2172390.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Compilations/SPLATOON ORIGINAL SOUNDTRACK Splatune/2-16 Miss!!.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 2172374.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/01 I Am... All Of Me.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/02 His World.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/03 Un-gravitify.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/04 All Hail Shadow.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/05 Never Turn Back.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/06 Revvin' Up.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/07 Into The Wind.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/08 Watch Me Fly....m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/09 Fire Woman.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/10 Sonic Heroes.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/11 What I'm Made Of....m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/12 Live Life.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/13 Knight Of The Wind.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/14 Live & Learn.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/15 Open Your Heart.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/16 Is It You.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/17 Free.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/18 With Me -Massive Power Mix-.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Crush 40/The Best Of Crush 40_ Super Sonic Songs/19 Seven Rings In Hand.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating DJ Omnimaga/DJ Omnimaga/The Last Hurrah of Omnidance.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 148033.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating EGOIST/The Everlasting Guilty Crown/1-02 キミソラキセキ.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 57679.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating EGOIST/The Everlasting Guilty Crown/1-04 The Everlasting Guilty Crown -TV Edit-.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 57700.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Falcom/Legacy of Ys_ Books I & II Original Soundtrack/09 The Last Moment of the Dark.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 622708.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Falcom/Legacy of Ys_ Books I & II Original Soundtrack/12 The Morning Grow.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 622698.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Falcom/Legacy of Ys_ Books I & II Original Soundtrack/27 A Still Time.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 622710.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Falcom Sound Team jdk/Ys vs. Sora no Kiseki Alternative Saga Sound Set [Disc 2]/2-07 The Strongest Foe [Ys The Oath in Felghana Original Soundtrack].mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 86803.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 89943.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Led Zeppelin/Led Zeppelin II (Remastered)/01 Whole Lotta Love.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 90011.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Led Zeppelin/Led Zeppelin II (Remastered)/02 What Is And What Should Never Be.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 89837.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Led Zeppelin/Led Zeppelin II (Remastered)/03 The Lemon Song.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 89174.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Led Zeppelin/Led Zeppelin II (Remastered)/04 Thank You.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 89539.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Led Zeppelin/Led Zeppelin II (Remastered)/05 Heartbreaker.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 89722.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Led Zeppelin/Led Zeppelin II (Remastered)/06 Living Loving Maid (She's Just A Woman).mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 90635.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Led Zeppelin/Led Zeppelin II (Remastered)/07 Ramble On.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 88455.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Led Zeppelin/Led Zeppelin II (Remastered)/08 Moby Dick.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 89427.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Led Zeppelin/Led Zeppelin II (Remastered)/09 Bring It On Home.mp3
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Momoiro Clover Z/Sailor Moon Crystal - Moon Pride/01 Moon Pride.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Momoiro Clover Z/Sailor Moon Crystal - Moon Pride/02 Gekkou.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Momoiro Clover Z/Sailor Moon Crystal - Moon Pride/03 Moon Pride (Off Vocal Ver.).m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Momoiro Clover Z/Sailor Moon Crystal - Moon Pride/04 Gekkou (Off Vocal Ver.).m4a
+Jun 28 01:27 : update: updating Motoi Sakuraba/Trusty Bell ~Chopin no Yume~ Original Score/4-15 Kyoutenka.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 142608.
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/01 Final Fantasy V Main Theme.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/02 Opening.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/03 Four Hearts.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/04 Hurry! Hurry!!.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/05 Lenna's Theme.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/06 Dungeon.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/07 Battle 1.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/08 Victory Fanfare.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/09 Reqiuem.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/10 We're Pirates.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/11 Town Theme.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/12 Good Night.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/13 The Sealed.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/14 Cursed Place.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/15 Bewitched.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/16 Harvest.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/17 Travelling the Snow-Capped Mountains.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/18 A Close Call!.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/19 Battle 2.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-01 Exdeath's Castle.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-02 Warriors of Dawn.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-03 Clash on the Big Bridge.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-04 Unknown Lands.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-05 Moogle Theme.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-06 Castle of the Dawn.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-07 At the Brink of the Deep Turquoise.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-08 Legend of the Great Forest.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-09 The Tycoon Waltz in F Major.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-10 Boko's Theme.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-11 A New World.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-12 The Writings of the Seal.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-13 The Slumber of the Ancient Earth.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-14 Prelude to the Void.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-15 Seeking the Light.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-16 Decisive Battle.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-17 The Final Battle.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-18 The Silent Beyond.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-19 To Dear Friends.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-20 Final Fantasy.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-21 End Title.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-22 The Prelude.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-23 Fanfare 1.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-24 Fanfare 2.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-25 I'm a Dancer.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-26 Piano Practice 1.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-27 Piano Practice 2.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-28 Piano Practice 3.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-29 Piano Practice 4.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-30 Piano Practice 5.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-31 Piano Practice 6.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-32 Piano Practice 7.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/2-33 Piano Practice 8.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/20 Spreading Vast Wings.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/21 Palace of the Royal Family.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/22 The Fire-Powered Ship.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/23 Escape!.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/24 The Sorrow of Parting.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/25 The Ancient Library.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/26 Reminiscence.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/27 Musica Machina.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/28 One Day, for Certain.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/29 Huh_.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/30 Mambo de Chocobo.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/31 Far-Distant Hometown.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/32 Music Box of Memories.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/33 The Airship.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: added Nobuo Uematsu/Final Fantasy V Original Sound Version/34 Supreme Lord Exdeath.m4a
+Jun 28 01:27 : update: updating Noriyuki Iwadare/Gyakuten Kenji 2 Original Soundtrack/1-10 The Imprisoned Turnabout.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 1204263.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Noriyuki Iwadare/Gyakuten Kenji 2 Original Soundtrack/2-01 The Inherited Turnabout.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 1204262.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Noriyuki Iwadare/Gyakuten Kenji 2 Original Soundtrack/2-09 The Forgotten Turnabout.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 1204261.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Noriyuki Iwadare/Gyakuten Kenji 2 Original Soundtrack/2-13 The Grand Turnabout.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 1204258.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Noriyuki Iwadare/Gyakuten Kenji 2 Original Soundtrack/2-15 The Great Monster Borumosu.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 1204265.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Noriyuki Iwadare/Gyakuten Kenji 2 Original Soundtrack/2-22 The Man Who Masterminds the Game.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 1204271.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Shoji Meguro/Burn My Dread -Reincarnation_ Persona 3-/1-02 Changing Seasons.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 72783.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Burn My Dread -Reincarnation_ Persona 3-/1-05 Unavoidable Battle.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 72785.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Burn My Dread -Reincarnation_ Persona 3-/1-06 The Poem for Everyone's Souls.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 72796.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Burn My Dread -Reincarnation_ Persona 3-/1-09 The Battle for Everyone's Souls.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 72798.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Burn My Dread -Reincarnation_ Persona 3-/1-10 Living With Determination.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 72793.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Persona 3 Original Soundtrack/1-02 The Poem for Everyone's Souls.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 291371.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Persona 3 Original Soundtrack/1-03 The Beginning.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 291355.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Persona 3 Original Soundtrack/1-14 The Voice Someone Calls.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 291366.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Persona 3 Original Soundtrack/1-23 An Unpleasant Premonition.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 291368.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Persona 3 Original Soundtrack/1-30 A Deep Mentality.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 291359.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Persona 3 Original Soundtrack/1-31 The Path is Open.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 291359.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Persona 3 Original Soundtrack/1-32 The Path Was Closed.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 291362.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Persona 3 Original Soundtrack/2-13 The Power of the Heart.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 291365.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Shoji Meguro/Persona 3 Original Soundtrack/2-19 The Battle for Everyone's Souls.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 291374.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA 012 (Duodecim) FINAL FANTASY [Original Soundtrack]/1-08 The Imperial Army (from _Final Fantasy II_).m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA 012 (Duodecim) FINAL FANTASY [Original Soundtrack]/1-20 The Final Battle - Arrange (from _Final Fantasy V_).m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA 012 (Duodecim) FINAL FANTASY [Original Soundtrack]/1-26 The Threat (from _Dissidia 012 [Duodecim] Final Fantasy_).m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA FINAL FANTASY Original Soundtrack/1-27 「The Decisive Battle - arrange -」 from FINAL FANTASY VI.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA FINAL FANTASY Original Soundtrack/1-29 「The Quickening」 from DISSIDIA FINAL FANTASY.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA FINAL FANTASY Original Soundtrack/1-30 「The Troops' Advance」 from DISSIDIA FINAL FANTASY.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA FINAL FANTASY Original Soundtrack/2-04 「A Brief Respite」 from DISSIDIA FINAL FANTASY.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA FINAL FANTASY Original Soundtrack/2-07 「The Extreme - original -」 from FINAL FANTASY VIII.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA FINAL FANTASY Original Soundtrack/2-17 「The Federation of Windurst - original -」 from FINAL FANTASY XI.m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Square Enix Music/DISSIDIA FINAL FANTASY Original Soundtrack/2-25 THE MESSENGER (featuring Your Favorite Enemies).m4a
+Jun 28 01:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:27 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:27 : update: updating Triple-Q/The Very Definition of Cancer/Kill la Adventure 2.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 10613.
+Jun 28 01:27 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Jun 28 01:27 : update: updating Various Artists/Ys Foliage Ocean in Celceta Original Soundtrack/1-01 The Foliage Ocean in CELCETA -Opening size-.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 218259.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE12E974578.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Various Artists/Ys Foliage Ocean in Celceta Original Soundtrack/1-04 The Great Forest of Celceta.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 218221.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE12E974578.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Various Artists/Ys Foliage Ocean in Celceta Original Soundtrack/2-01 The Morning After the Storm.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 218246.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE12E974578.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Various Artists/Ys Foliage Ocean in Celceta Original Soundtrack/2-13 The Final Decisive Battle.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 218196.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE12E974578.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating Various Artists/Ys Foliage Ocean in Celceta Original Soundtrack/2-17 The Foliage Ocean in CELCETA.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 218216.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE12E974578.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating 岩崎琢/まじっく快斗 1412 オリジナルサウンドトラック/1-04 The Message from The Past.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 189280.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating 岩崎琢/まじっく快斗 1412 オリジナルサウンドトラック/1-16 The Rules of a Gentleman Thief.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 189286.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating 岩崎琢/まじっく快斗 1412 オリジナルサウンドトラック/1-23 The end of the Show.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 189275.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : update: updating 澤野弘之/Aldnoah.Zero REARRANGE SOUNDTRACK/02 The Call to Arms _a0v_.mp3
+Jun 28 01:27 : ffmpeg/mp3: Skipping 0 bytes of junk at 73443.
+Jun 28 01:27 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 01:27 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 01:27 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 01:27 : client: [2] opened from 127.0.0.1:57072
+Jun 28 01:27 : client: [2] closed
+Jun 28 01:28 : player: played "CHiCO/アイのシナリオ/01 アイのシナリオ.mp3"
+Jun 28 01:28 : client: [3] opened from 127.0.0.1:57077
+Jun 28 01:28 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:28 : ffmpeg/mjpeg: Changing bps to 8
+2016-06-28 01:28:59.127 mpd[904:4623] 01:28:59.127 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 01:29 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/01 Final Fantasy V Main Theme.m4a"
+Jun 28 01:29 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:29 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:29 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:29 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:29 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/2-32 Piano Practice 7.m4a"
+Jun 28 01:29 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/2-11 A New World.m4a"
+Jun 28 01:29 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:29 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:31 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:31 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:31 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/17 Travelling the Snow-Capped Mountains.m4a"
+Jun 28 01:33 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:33 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:33 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/05 Lenna's Theme.m4a"
+Jun 28 01:35 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:35 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:36 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/31 Far-Distant Hometown.m4a"
+Jun 28 01:40 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:40 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:40 : client: [3] closed
+Jun 28 01:40 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/2-16 Decisive Battle.m4a"
+Jun 28 01:43 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/2-14 Prelude to the Void.m4a"
+Jun 28 01:43 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:43 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:44 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:44 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/07 Battle 1.m4a"
+Jun 28 01:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:46 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:46 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/32 Music Box of Memories.m4a"
+Jun 28 01:47 : client: [1] closed
+Jun 28 01:49 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:49 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:49 : client: [4] opened from 127.0.0.1:57371
+Jun 28 01:49 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/24 The Sorrow of Parting.m4a"
+Jun 28 01:52 : client: [4] closed
+Jun 28 01:53 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:53 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:53 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/2-17 The Final Battle.m4a"
+Jun 28 01:57 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:57 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:57 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/2-19 To Dear Friends.m4a"
+Jun 28 01:58 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 01:58 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 01:58 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/18 A Close Call!.m4a"
+Jun 28 02:03 : client: [5] opened from 127.0.0.1:57784
+Jun 28 02:06 : ffmpeg/mp3: Skipping 0 bytes of junk at 362763.
+Jun 28 02:06 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 02:06 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 02:06 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Jun 28 02:07 : player: played "Nobuo Uematsu/Final Fantasy V Original Sound Version/2-21 End Title.m4a"
+2016-06-28 02:08:08.663 mpd[904:4623] 02:08:08.663 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+2016-06-28 02:08:13.872 mpd[904:4623] 02:08:13.872 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+2016-06-28 02:08:24.104 mpd[904:4623] 02:08:24.103 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+2016-06-28 02:08:31.700 mpd[904:4623] 02:08:31.700 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+2016-06-28 02:09:13.828 mpd[904:4623] 02:09:13.828 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+2016-06-28 02:09:19.515 mpd[904:4623] 02:09:19.515 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 02:11 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 02:11 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 02:11 : player: played "CHiCO/アイのシナリオ/01 アイのシナリオ.mp3"
+2016-06-28 02:11:42.348 mpd[904:4623] 02:11:42.348 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 02:15 : player: played "Code Lyoko/A World Without Danger - Single/01 A World Without Danger.m4a"
+Jun 28 02:16 : client: [5] closed
+Jun 28 02:19 : client: [6] opened from 127.0.0.1:57983
+Jun 28 02:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 28 02:19 : ffmpeg/mjpeg: Changing bps to 8
+2016-06-28 02:19:18.455 mpd[904:4623] 02:19:18.455 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 02:19 : client: [6] closed
+Jun 28 02:21 : client: [7] opened from 127.0.0.1:58121
+2016-06-28 02:21:41.524 mpd[904:4623] 02:21:41.524 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 02:22 : player: played "Code Lyoko/A World Without Danger - Single/01 A World Without Danger.m4a"
+Jun 28 02:22 : client: [7] closed
+Jun 28 02:23 : client: [8] opened from 127.0.0.1:58204
+Jun 28 02:27 : client: [8] closed
+Jun 28 10:59 : client: [9] opened from 127.0.0.1:58474
+Jun 28 11:16 : client: [9] closed
+Jun 28 11:16 : client: [10] opened from 127.0.0.1:58900
+Jun 28 12:02 : client: [10] closed
+Jun 28 12:05 : client: [11] opened from 127.0.0.1:60587
+Jun 28 12:06 : ffmpeg/mp3: Skipping 0 bytes of junk at 362763.
+Jun 28 12:06 : ffmpeg/png: Invalid PNG signature 0xFFD8FFE000104A46.
+Jun 28 12:06 : ffmpeg/mp3: decoding for stream 1 failed
+Jun 28 12:06 : ffmpeg/mp3: Could not find codec parameters for stream 1 (Video: png, none(pc)): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+2016-06-28 12:06:03.735 mpd[904:4623] 12:06:03.735 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 12:08 : client: [12] opened from 127.0.0.1:60992
+2016-06-28 12:09:03.853 mpd[904:4623] 12:09:03.853 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 12:10 : player: played "CHiCO/アイのシナリオ/01 アイのシナリオ.mp3"
+Jun 28 12:11 : ffmpeg/mp3: Skipping 0 bytes of junk at 60355.
+Jun 28 12:11 : ffmpeg/mjpeg: Changing bps to 8
+2016-06-28 12:11:28.475 mpd[904:4623] 12:11:28.474 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 12:11 : player: played "Drakengard/DRAG-ON DRAGOON 3 Original Soundtrack/2-23 Corroscience _ Almisael.mp3"
+Jun 28 12:11 : ffmpeg/mp3: Skipping 0 bytes of junk at 60353.
+Jun 28 12:11 : ffmpeg/mjpeg: Changing bps to 8
+2016-06-28 12:11:58.221 mpd[904:4623] 12:11:58.220 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 12:12 : player: played "Drakengard/DRAG-ON DRAGOON 3 Original Soundtrack/2-28 Prevolt _ Zophiel.mp3"
+Jun 28 12:12 : ffmpeg/mp3: Skipping 0 bytes of junk at 60351.
+Jun 28 12:12 : ffmpeg/mjpeg: Changing bps to 8
+2016-06-28 12:12:20.635 mpd[904:4623] 12:12:20.635 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Jun 28 12:15 : ffmpeg/mp3: Skipping 0 bytes of junk at 60339.
+Jun 28 12:15 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 12:16 : player: played "Drakengard/DRAG-ON DRAGOON 3 Original Soundtrack/2-25 Companthem _ Gabriel.mp3"
+Jun 28 12:21 : ffmpeg/mp3: Skipping 0 bytes of junk at 60371.
+Jun 28 12:21 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 12:21 : player: played "Drakengard/DRAG-ON DRAGOON 3 Original Soundtrack/2-24 Blissade _ Egregori.mp3"
+Jun 28 12:25 : ffmpeg/mp3: Skipping 0 bytes of junk at 60383.
+Jun 28 12:25 : ffmpeg/mjpeg: Changing bps to 8
+Jun 28 12:25 : player: played "Drakengard/DRAG-ON DRAGOON 3 Original Soundtrack/2-26 Blissade _ Raphael.mp3"
+Jun 28 12:33 : player: played "Drakengard/DRAG-ON DRAGOON 3 Original Soundtrack/2-32 Final Song.mp3"
+Jun 28 12:36 : client: [12] closed
+Jun 28 21:22 : client: [11] closed
+Jul 05 19:57 : config: inotify: auto_update was disabled. enable during compilation phase
+Jul 05 19:57 : config: option 'enabled' on line 27 was not recognized
+Jul 05 19:58 : client: [0] opened from 127.0.0.1:49286

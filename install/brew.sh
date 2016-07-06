@@ -12,9 +12,7 @@ brew install stow
 # Tap homebrew/x11, for xpdf
 
 brew tap homebrew/x11
-brew tap homebrew/games
 brew tap beeftornado/rmtree
-brew tap neovim/homebrew-neovim
 brew tap homebrew/dupes
 brew tap homebrew/versions
 
@@ -68,7 +66,6 @@ brew install lua
 brew install markdown
 brew install mpd
 brew install ncmpcpp --with-visualizer --with-clock
-brew install --HEAD neovim
 brew install openssl
 brew install openssh
 brew install pandoc
@@ -83,18 +80,5 @@ brew install tree
 brew install https://raw.githubusercontent.com/choppsv1/homebrew-term24/master/tmux.rb
 brew install unzip
 brew install vim --override-system-vi --with-lua --with-client-server --with-luajit --with-mzscheme --with-python3 --with-tcl
-#brew install macvim --override-system-vim --with-lua --with-luajit --HEAD
 brew install xpdf
 brew install zsh
-
-# Install stuff for Dataforma
-brew install java6
-brew install mysql55 # Manually symlink files to usr/local
-
-# Install games because I'm not a savage :P
-
-# Because I hate myself
-brew install angband
-brew install rogue
-
-
