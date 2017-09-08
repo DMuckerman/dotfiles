@@ -50,7 +50,7 @@ call plug#begin('~/.nvim/plugged')
 
 	" Complicated stuff
 	"Plug 'Shougo/neocomplete.vim'
-	Plug 'Shougo/deoplete.nvim'
+	Plug 'Shougo/deoplete.nvim' , { 'do': ':UpdateRemotePlugins' }
 	
 	" More syntaxes
 	Plug 'scrooloose/syntastic'

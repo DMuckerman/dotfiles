@@ -14,8 +14,8 @@ brew tap thoughtbot/formulae &> /dev/null
 
 # Install brew & brew-cask packages
 
-#source "$DOTFILES_DIR/install/brew.sh"
-#source "$DOTFILES_DIR/install/brew-cask.sh"
+source "$DOTFILES_DIR/install/brew.sh"
+source "$DOTFILES_DIR/install/brew-cask.sh"
 
 # Setup some helpful stuff for go
 source "$DOTFILES_DIR/install/go.sh"

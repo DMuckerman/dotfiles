@@ -64,26 +64,29 @@ export OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include
 export OPENSSL_ROOT_DIR=/usr/local/opt/openssl
 export RUST_SRC_PATH=~/src/rust/rustc-1.6.0/src
 export PATH="/Users/danielmuckerman/.cask/bin:$PATH"
+#export PATH=/Applications/Racket\ v6.6/bin:$PATH
+
+export MONO_GAC_PREFIX="/usr/local"
 
 if [[ "$OSTYPE" == darwin* ]]; then
 		# GNU stuff
-		export PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
-		export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+		#export PATH="$PATH:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin"
+		export PATH="$PATH:/usr/local/opt/gnu-sed/libexec/gnubin"
 		export PATH="$HOME/.local/bin:$PATH"
 
-		export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
-		export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
+		export MANPATH="$MANPATH:/usr/local/opt/coreutils/libexec/gnuman"
+		export MANPATH="$MANPATH:/usr/local/opt/gnu-sed/libexec/gnuman"
 
 		export PATH="~/Applications/ofexport2/bin:$PATH"
 fi
 
 if [[ "$(uname)" == "Linux" ]]; then
     # hledger path
-    export LEDGER_FILE=/home/dan/Dropbox/hledger.journal
+    export LEDGER_FILE=/home/dan/Dropbox/ledger.journal
 fi
 if [[ "$(uname)" == "Darwin" ]]; then
     # hledger path
-    export LEDGER_FILE=/Users/danielmuckerman/Dropbox/hledger.journal
+    export LEDGER_FILE=/Users/danielmuckerman/Dropbox/ledger.journal
 fi
 
 #

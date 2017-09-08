@@ -37,7 +37,7 @@ alias mysql-start='mysql.server start'
 alias mysql-stop='mysql.server stop'
 alias scratch='vim scratch'
 alias df='cd ~/Dataforma'
-alias emt='emacsclient -ct'
+alias et='emacsclient -ct'
 alias em='emacsclient -c'
 alias calorific='guile ~/Guile/calorific.scm'
 alias friends="friends --filename ~/Dropbox/friends.md"
@@ -45,6 +45,7 @@ alias latexmk='latexmk -pdf -pvc -xelatex'
 alias hledger-ui='hledger-ui --theme=terminal'
 alias emacs='emacs -nw'
 alias of2='~/Applications/ofexport2/bin/of2'
+alias regdel='regdel ~/Dropbox/ledger.journal'
 
 unalias sl
 
@@ -56,8 +57,6 @@ alias FUCK='fuck'
 # Bind true color neovim to vim
 alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
-
-alias dfssh="ssh root@192.168.121.47"
 
 # Perl scripts
 alias twi2gif='perl ~/Developer/perlprojects/twitter2gif.pl'
@@ -80,6 +79,14 @@ fi
 
 # # OSX specific bindings
 if [[ "$(uname)" == "Darwin" ]]; then
+		# add keychain to ssh
+		if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
+
+		else
+			eval $(ssh-agent) &> /dev/null
+			/usr/bin/ssh-add -K &> /dev/null
+		fi
+
 		# cd to iCloud Drive folder
 		alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
 
@@ -139,3 +146,4 @@ autoload -U edit-command-line
 zle -N edit-command-line
 bindkey '^xe' edit-command-line
 bindkey '^x^e' edit-command-line
+export PATH="/usr/local/opt/gnupg@2.0/bin:$PATH"

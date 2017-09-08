@@ -2,7 +2,7 @@
 
 These are my dotfiles. Take anything you want, but at your own risk.
 
-It targets OS X systems. It might work on \*nix boxes, but I may have
+It targets macOS systems. It might work on \*nix boxes, but I may have
 broken a few things. :P
 
 ## Install
@@ -34,9 +34,9 @@ Alternatively, you can install this into `~/.dotfiles` from remote without Git u
        help        This help message
        edit        Open dotfiles in default editor ($EDITOR) and Git GUI ($GIT_GUI)
        reload      Reload dotfiles
-       update      Update OS X Applications, Homebrew (cask), npm, and Ruby packages
-       osx         Apply OS X system defaults
-       dock        Apply OS X Dock settings
+       update      Update macOS Applications, and Homebrew (cask) packages
+       macos       Apply macOS system defaults
+       dock        Apply macOS Dock settings
 
 ## Custom settings
 
@@ -78,4 +78,4 @@ Thanks to [thoughtbot](https://github.com/thoughtbot) for
 process even more delightful.
 
 And thanks to [octotep](https://github.com/octotep) for turning me on to
-Vim. :P
+Vim before I abandoned it for Emacs. :P

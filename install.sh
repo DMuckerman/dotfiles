@@ -16,7 +16,7 @@ unamestr=`uname`
 
 # Install OS X specific stuff
 if [ "$unamestr" == "Darwin" ]; then
-		#    source "$DOTFILES_DIR/install/osx.sh"
+		source "$DOTFILES_DIR/install/osx.sh"
 
 		if [ $SHELL != "/bin/zsh" ]; then
 				echo "Changing shell to Zsh"
@@ -64,6 +64,11 @@ stow vim
 
 echo "Installing neovim files"
 stow nvim
+
+if [ ! -f $HOME/.tmux.conf ]; then
+		echo "Installing tmux conf"
+		cp $HOME/.dotfiles/.tmux.conf ~/.tmux.conf
+fi
 
 if [ "$unamestr" == "Darwin" ]; then
 		echo "Installing slate files"

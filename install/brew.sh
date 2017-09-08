@@ -16,19 +16,19 @@ brew tap beeftornado/rmtree
 brew tap homebrew/dupes
 brew tap homebrew/versions
 
-# Install GNU packages (and override OSX version)
+# Install GNU packages
 brew install binutils
 brew install coreutils
 brew install diffutils
-brew install ed --with-default-names
-brew install findutils --with-default-names
+brew install ed
+brew install findutils
 brew install gawk
-brew install gnu-indent --with-default-names
-brew install gnu-sed --with-default-names
-brew install gnu-tar --with-default-names
-brew install gnu-which --with-default-names
+brew install gnu-indent
+brew install gnu-sed
+brew install gnu-tar
+brew install gnu-which
 brew install gnutls --with-guile
-brew install grep --with-default-names
+brew install grep
 brew install gzip
 brew install screen
 brew install watch
@@ -37,15 +37,13 @@ brew install wget
 
 # Install updated versions of OSX stuff
 brew install bash
-brew install emacs --with-cocoa --with-ctags --with-dbus --with-gnutls --with-imagemagick --with-librsvg --devel
 brew install gdb # gdb requires further actions to make it work. See `brew info gdb`.
 brew install gpatch
 brew install m4
 brew install make --with-default-names --with-guile
 brew install nano
 
-# GUI EMACS MASTER RACE
-brew linkapps emacs
+# GUI EMACS MASTER RACE (Installed from Cask now)
 
 # Install stuff
 brew install ag
@@ -64,8 +62,10 @@ brew install jenv
 brew install jq
 brew install lua
 brew install markdown
+brew install mosh
 brew install mpd
 brew install ncmpcpp --with-visualizer --with-clock
+brew install neovim
 brew install openssl
 brew install openssh
 brew install pandoc
@@ -73,12 +73,13 @@ brew install peco
 brew install perl
 brew install python3
 brew install rakudo-star # Gotta get that Perl 6 swaaaaaaaaaaaag
+brew install rg
 brew install rsync
 brew install sqlite
 brew install ssh-copy-id
 brew install tree
-brew install https://raw.githubusercontent.com/choppsv1/homebrew-term24/master/tmux.rb
+brew install tmux
 brew install unzip
-brew install vim --override-system-vi --with-lua --with-client-server --with-luajit --with-mzscheme --with-python3 --with-tcl
+brew install vim --override-system-vi --with-lua --with-client-server --with-luajit --with-python3 --with-tcl
 brew install xpdf
 brew install zsh

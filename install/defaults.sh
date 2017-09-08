@@ -440,7 +440,8 @@ sudo tmutil disablelocal
 ###############################################################################
 
 # Copy Karabiner private.xml to proper location
-cp private.xml "~/Library/Application Support/Karabiner/private.xml"
+# (Karabiner currently doesn't work with Sierra onward)
+#cp private.xml "~/Library/Application Support/Karabiner/private.xml"
 
 ###############################################################################
 # Kill affected applications                                                  #
