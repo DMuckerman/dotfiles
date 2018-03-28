@@ -201,17 +201,18 @@ endfunction
 
 " Pretty kitty
 " autocmd VimEnter * echo ">^.^<"
+let g:base16_shell_path=~/git/base16-builder/output/shell/
 autocmd VimEnter * call EmojiHi()
-autocmd VimEnter * colo warez
+autocmd VimEnter * colo base16-spacemacs
 autocmd VimEnter * AirlineTheme luna
 
 syntax enable
 set background=dark
-colorscheme warez
+colorscheme base16-spacemacs
 let g:airline_theme='luna'
 
 " Thesaurus
-let g:online_thesaurus_map_keys = 0
+let g:online_thesaurus_map_keys = -1
 nnoremap <leader>k :OnlineThesaurusCurrentWord<CR>
 
 " Disable mode display, cuz airline

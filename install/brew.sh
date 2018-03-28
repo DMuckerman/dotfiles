@@ -38,24 +38,25 @@ brew install wget
 # Install updated versions of OSX stuff
 brew install bash
 brew install gdb # gdb requires further actions to make it work. See `brew info gdb`.
+echo 'gdb requires further actions to make it work. See `brew info gdb`.'
 brew install gpatch
 brew install m4
 brew install make --with-default-names --with-guile
 brew install nano
 
-# GUI EMACS MASTER RACE (Installed from Cask now)
+# GUI EMACS MASTER RACE
+## Emacs Mac port for better comptatibility with macOS
+brew install emacs-mac --with-glib --with-gnutls --with-imagemagick --with-official-icon --with-natural-title-bar
+brew linkapps emacs-mac
 
 # Install stuff
 brew install ag
 brew install autoconf
 brew install beeftornado/rmtree/brew-rmtree
-brew install catimg
 brew install dockutil
 brew install fortune
 brew install ghostscript
 brew install git
-brew install go
-brew install hub
 brew install isync
 brew install java
 brew install jenv
@@ -72,7 +73,6 @@ brew install pandoc
 brew install peco
 brew install perl
 brew install python3
-brew install rakudo-star # Gotta get that Perl 6 swaaaaaaaaaaaag
 brew install rg
 brew install rsync
 brew install sqlite

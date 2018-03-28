@@ -52,17 +52,12 @@ path=(
 # Add the GOROOT-based install location to my path
 #export PATH=$PATH:/usr/bin
 #export PATH=$PATH:/usr/local/opt/go/libexec/bin
-export GOPATH="$HOME/goprojects"
-export PATH=$PATH:$GOPATH
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
-export PATH=$PATH:${JAVA_HOME}/bin
-export PATH=$PATH:/Users/danielmuckerman/.gem/ruby/2.2.0/bin
-export PATH=$PATH:/Users/danielmuckerman/.local/bin
-export PATH=$PATH:/Users/danielmuckerman/.multirust/toolchains/stable/cargo/bin
+#export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+#export PATH=$PATH:${JAVA_HOME}/bin
+export PATH=$PATH:$HOME/.local/bin
 export PKG_CONFIG_PATH=/usr/local/Cellar/zlib/1.2.8/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig
 export OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include
 export OPENSSL_ROOT_DIR=/usr/local/opt/openssl
-export RUST_SRC_PATH=~/src/rust/rustc-1.6.0/src
 export PATH="/Users/danielmuckerman/.cask/bin:$PATH"
 #export PATH=/Applications/Racket\ v6.6/bin:$PATH
 
@@ -72,12 +67,9 @@ if [[ "$OSTYPE" == darwin* ]]; then
 		# GNU stuff
 		#export PATH="$PATH:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin"
 		export PATH="$PATH:/usr/local/opt/gnu-sed/libexec/gnubin"
-		export PATH="$HOME/.local/bin:$PATH"
 
 		export MANPATH="$MANPATH:/usr/local/opt/coreutils/libexec/gnuman"
 		export MANPATH="$MANPATH:/usr/local/opt/gnu-sed/libexec/gnuman"
-
-		export PATH="~/Applications/ofexport2/bin:$PATH"
 fi
 
 if [[ "$(uname)" == "Linux" ]]; then
@@ -146,36 +138,20 @@ bid() {
 }
 
 if [[ "$OSTYPE" == darwin* ]]; then
-		function setjdk() {
-				if [ $# -ne 0 ]; then
-						removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
-						if [ -n "${JAVA_HOME+x}" ]; then
-								removeFromPath $JAVA_HOME
-						fi
-						export JAVA_HOME=`/usr/libexec/java_home -v $@`
-						export PATH=$JAVA_HOME/bin:$PATH
-				fi
-		}
-		function removeFromPath() {
-				export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
-		}
-		setjdk 1.8
-fi
-
-if [[ "$OSTYPE" == darwin* ]]; then
-		# Omnifocus
-		# of "Test! @house ::misc #tom 8am #tom 8pm //notes"
-		function of () {
-				if [[ $# -eq 0 ]]; then
-						open -a "OmniFocus"
-				else
-						osascript <<EOT
-    tell application "OmniFocus"
-      parse tasks into default document with transport text "$@"
-    end tell
-EOT
-				fi
-		}
+    function setjdk() {
+	if [ $# -ne 0 ]; then
+	    removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
+	    if [ -n "${JAVA_HOME+x}" ]; then
+		removeFromPath $JAVA_HOME
+	    fi
+	    export JAVA_HOME=`/usr/libexec/java_home -v $@`
+	    export PATH=$JAVA_HOME/bin:$PATH
+	fi
+    }
+    function removeFromPath() {
+	export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
+    }
+    setjdk 1.8
 fi
 
 export LANGUAGE=en_US.UTF-8

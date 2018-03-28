@@ -10,7 +10,6 @@ fi
 brew tap caskroom/cask &> /dev/null
 brew install brew-cask &> /dev/null
 brew tap caskroom/versions &> /dev/null
-brew tap thoughtbot/formulae &> /dev/null
 
 # Install brew & brew-cask packages
 
@@ -18,7 +17,7 @@ source "$DOTFILES_DIR/install/brew.sh"
 source "$DOTFILES_DIR/install/brew-cask.sh"
 
 # Setup some helpful stuff for go
-source "$DOTFILES_DIR/install/go.sh"
+#source "$DOTFILES_DIR/install/go.sh"
 
 # Install Ruby gems (SASS, Compass)
 

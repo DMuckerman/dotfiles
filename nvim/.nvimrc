@@ -239,13 +239,14 @@ endfunction
 
 " Pretty kitty
 " autocmd VimEnter * echo ">^.^<"
+let g:base16_shell_path = "/Users/danielmuckerman/git/base16-builder/output/shell/"
 autocmd VimEnter * call EmojiHi()
-autocmd VimEnter * colo warez
-autocmd VimEnter * AirlineTheme luna
+autocmd VimEnter * colo base16-spacemacs
+autocmd VimEnter * AirlineTheme base16_spacemacs
 
 syntax enable
 set background=dark
-let g:airline_theme='luna'
+let g:airline_theme='base16_spacemacs'
 
 " Thesaurus
 let g:online_thesaurus_map_keys = 0

@@ -31,20 +31,10 @@ alias lsal='ls -al'
 alias lsla='ls -al'
 alias wiki='cd ~/twiccian.wiki && ls'
 alias bd='cd ..'
-alias screen='screen -U'
-alias logs='perl ~/perlprojects/logs.pl'
-alias mysql-start='mysql.server start'
-alias mysql-stop='mysql.server stop'
-alias scratch='vim scratch'
-alias df='cd ~/Dataforma'
 alias et='emacsclient -ct'
 alias em='emacsclient -c'
-alias calorific='guile ~/Guile/calorific.scm'
-alias friends="friends --filename ~/Dropbox/friends.md"
 alias latexmk='latexmk -pdf -pvc -xelatex'
-alias hledger-ui='hledger-ui --theme=terminal'
 alias emacs='emacs -nw'
-alias of2='~/Applications/ofexport2/bin/of2'
 alias regdel='regdel ~/Dropbox/ledger.journal'
 
 unalias sl
@@ -61,49 +51,51 @@ alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 # Perl scripts
 alias twi2gif='perl ~/Developer/perlprojects/twitter2gif.pl'
 
-# YOLO
-alias yolo='git commit -am "DEAL WITH IT" && git push -f origin master'
-
 # Linux specific bindings
 if [[ "$(uname)" == "Linux" ]]; then
-		# Alias xclip to OSX's clipboard commands
-		alias pbcopy='xclip -selection c'
-		alias pbpaste='xclip -selection clipboard -o'
+    # Alias xclip to OSX's clipboard commands
+    alias pbcopy='xclip -selection c'
+    alias pbpaste='xclip -selection clipboard -o'
 
-		# Lock screen
-		alias lock='i3lock -c 6441A5'
+    # Lock screen
+    alias lock='i3lock -c 6441A5'
 
-		# ssh-agent stuff
-		export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+    # ssh-agent stuff
+    export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 fi
 
 # # OSX specific bindings
 if [[ "$(uname)" == "Darwin" ]]; then
 		# add keychain to ssh
-		if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
+    if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
 
-		else
-			eval $(ssh-agent) &> /dev/null
-			/usr/bin/ssh-add -K &> /dev/null
-		fi
+       else
+	   eval $(ssh-agent) &> /dev/null
+	   /usr/bin/ssh-add -K &> /dev/null
+    fi
 
-		# cd to iCloud Drive folder
-		alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
+       # cd to iCloud Drive folder
+       alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
 
-		# VLC terminal binding
-		alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
+       # VLC terminal binding
+       alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
 
-		if brew command command-not-found-init > /dev/null; then
-				eval "$(brew command-not-found-init)";
-		fi
+       if brew command command-not-found-init > /dev/null; then
+	   eval "$(brew command-not-found-init)";
+       fi
 
-		# CPAN stuff
-		PERL_MB_OPT="--install_base \"/Users/danielmuckerman/perl5\""; export PERL_MB_OPT;
-		PERL_MM_OPT="INSTALL_BASE=/Users/danielmuckerman/perl5"; export PERL_MM_OPT;
+       # CPAN stuff
+       PERL_MB_OPT="--install_base \"/Users/danielmuckerman/perl5\""; export PERL_MB_OPT;
+       PERL_MM_OPT="INSTALL_BASE=/Users/danielmuckerman/perl5"; export PERL_MM_OPT;
+
+       #macfeh alias
+       function macfeh() {
+	   open -b "drabweb.macfeh" "$@"
+       }
 fi
 
 # cdpath yay
-cdpath=(~ ~/Developer ~/perlprojects ~/goprojects ~/Dataforma)
+cdpath=(~ ~/Developer ~/perlprojects)
 
 # Disable autocorrect
 unsetopt correct_all
@@ -115,7 +107,7 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 # iTerm2 Shell Integration
 if [[ "$(uname)" == "darwin" ]]; then
-		test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+    test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 fi
 
 source ~/.zplug/zplug
@@ -125,10 +117,10 @@ zplug "hlissner/zsh-autopair", nice:10
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check; then
-		printf "Install? [y/N]: "
-		if read -q; then
-				echo; zplug install
-		fi
+    printf "Install? [y/N]: "
+    if read -q; then
+	echo; zplug install
+    fi
 fi
 
 # Then, source plugins and add commands to path
