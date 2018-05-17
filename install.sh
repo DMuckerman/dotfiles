@@ -67,15 +67,15 @@ stow vim
 
 echo "Installing neovim files"
 stow nvim
+# nvim init location changed, make sure it loads nvimrc
+mkdir -p ~/.config/nvim
+echo 'source ~/.nvimrc' > ~/.config/nvim/init.vim
+# Install neovim python bindings for deoplete
+pip3 install neovim
 
 if [ ! -f $HOME/.tmux.conf ]; then
     echo "Installing tmux conf"
     cp $HOME/.dotfiles/.tmux.conf ~/.tmux.conf
-fi
-
-if [ "$unamestr" == "Darwin" ]; then
-    echo "Installing slate files"
-    stow slate
 fi
 
 if [ ! -f $HOME/.mbsyncrc ]; then

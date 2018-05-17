@@ -13,6 +13,8 @@ if [[ "$OSTYPE" == darwin* ]]; then
 		export BROWSER='open'
 fi
 
+export SHELL='/usr/local/bin/zsh'
+
 #
 # Editors
 #
@@ -49,17 +51,11 @@ path=(
     $path
 )
 
-# Add the GOROOT-based install location to my path
-#export PATH=$PATH:/usr/bin
-#export PATH=$PATH:/usr/local/opt/go/libexec/bin
-#export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
-#export PATH=$PATH:${JAVA_HOME}/bin
 export PATH=$PATH:$HOME/.local/bin
 export PKG_CONFIG_PATH=/usr/local/Cellar/zlib/1.2.8/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig
 export OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include
 export OPENSSL_ROOT_DIR=/usr/local/opt/openssl
-export PATH="/Users/danielmuckerman/.cask/bin:$PATH"
-#export PATH=/Applications/Racket\ v6.6/bin:$PATH
+export PATH=$PATH:/usr/local/lib/python3.6/site-packages
 
 export MONO_GAC_PREFIX="/usr/local"
 
@@ -75,10 +71,6 @@ fi
 if [[ "$(uname)" == "Linux" ]]; then
     # hledger path
     export LEDGER_FILE=/home/dan/Dropbox/ledger.journal
-fi
-if [[ "$(uname)" == "Darwin" ]]; then
-    # hledger path
-    export LEDGER_FILE=/Users/danielmuckerman/Dropbox/ledger.journal
 fi
 
 #
@@ -107,7 +99,7 @@ fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
 
-DOTFILES_DIR="$HOME/dotfiles"
+DOTFILES_DIR="$HOME/.dotfiles"
 
 export DOTFILES_DIR
 

@@ -13,10 +13,10 @@ fi
 
 # Load MOTD {{{
 #if [[ -e $HOME/.motd ]]; then cat $HOME/.motd; fi
-fortune gurren
-if [[ "$OSTYPE" == linux* ]]; then
-		echo
-fi
+#fortune gurren
+#if [[ "$OSTYPE" == linux* ]]; then
+		#echo
+#fi
 # }}}
 
 # Customize to your needs...
@@ -35,7 +35,6 @@ alias et='emacsclient -ct'
 alias em='emacsclient -c'
 alias latexmk='latexmk -pdf -pvc -xelatex'
 alias emacs='emacs -nw'
-alias regdel='regdel ~/Dropbox/ledger.journal'
 
 unalias sl
 
@@ -66,36 +65,21 @@ fi
 
 # # OSX specific bindings
 if [[ "$(uname)" == "Darwin" ]]; then
-		# add keychain to ssh
+    # add keychain to ssh
     if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
-
+       
        else
 	   eval $(ssh-agent) &> /dev/null
 	   /usr/bin/ssh-add -K &> /dev/null
     fi
 
-       # cd to iCloud Drive folder
-       alias icloud='cd /Users/danielmuckerman/Library/Mobile\ Documents/com~apple~CloudDocs/'
+    # cd to iCloud Drive folder
+    alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
 
-       # VLC terminal binding
-       alias vlc='/Users/danielmuckerman/Applications/VLC.app/Contents/MacOS/VLC'
-
-       if brew command command-not-found-init > /dev/null; then
-	   eval "$(brew command-not-found-init)";
-       fi
-
-       # CPAN stuff
-       PERL_MB_OPT="--install_base \"/Users/danielmuckerman/perl5\""; export PERL_MB_OPT;
-       PERL_MM_OPT="INSTALL_BASE=/Users/danielmuckerman/perl5"; export PERL_MM_OPT;
-
-       #macfeh alias
-       function macfeh() {
-	   open -b "drabweb.macfeh" "$@"
-       }
+    if brew command command-not-found-init > /dev/null; then
+	eval "$(brew command-not-found-init)";
+    fi
 fi
-
-# cdpath yay
-cdpath=(~ ~/Developer ~/perlprojects)
 
 # Disable autocorrect
 unsetopt correct_all
@@ -105,15 +89,10 @@ DISABLE_CORRECTION="true"
 export JENV_ROOT=/usr/local/var/jenv
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
-# iTerm2 Shell Integration
-if [[ "$(uname)" == "darwin" ]]; then
-    test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
-fi
-
-source ~/.zplug/zplug
+source ~/.zplug/init.zsh
 
 zplug "supercrabtree/k"
-zplug "hlissner/zsh-autopair", nice:10
+zplug "hlissner/zsh-autopair"
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check; then
@@ -126,7 +105,7 @@ fi
 # Then, source plugins and add commands to path
 zplug load
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Scala Env stuff
 #export SCALAENV_ROOT=/usr/local/var/scalaenv
@@ -139,3 +118,5 @@ zle -N edit-command-line
 bindkey '^xe' edit-command-line
 bindkey '^x^e' edit-command-line
 export PATH="/usr/local/opt/gnupg@2.0/bin:$PATH"
+
+if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi

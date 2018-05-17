@@ -15,6 +15,8 @@ brew tap homebrew/x11
 brew tap beeftornado/rmtree
 brew tap homebrew/dupes
 brew tap homebrew/versions
+brew tap railwaycat/emacsmacport
+brew tap homebrew/command-not-found
 
 # Install GNU packages
 brew install binutils
@@ -55,14 +57,13 @@ brew install autoconf
 brew install beeftornado/rmtree/brew-rmtree
 brew install dockutil
 brew install fortune
-brew install ghostscript
 brew install git
 brew install isync
 brew install java
 brew install jenv
-brew install jq
 brew install lua
 brew install markdown
+brew install jq
 brew install mosh
 brew install mpd
 brew install ncmpcpp --with-visualizer --with-clock
@@ -83,3 +84,4 @@ brew install unzip
 brew install vim --override-system-vi --with-lua --with-client-server --with-luajit --with-python3 --with-tcl
 brew install xpdf
 brew install zsh
+brew install zplug

@@ -41,15 +41,14 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'xolox/vim-notes'
 
 	" Org-mode
-	Plug 'utl.vim'
+	Plug 'vim-scripts/utl.vim'
 	Plug 'tpope/vim-repeat'
-	Plug 'taglist.vim'
+	Plug 'vim-scripts/taglist.vim'
 	Plug 'tpope/vim-speeddating'
 	Plug 'chrisbra/NrrwRgn'
-	Plug 'SyntaxRange'
+	Plug 'vim-scripts/SyntaxRange'
 
 	" Complicated stuff
-	"Plug 'Shougo/neocomplete.vim'
 	Plug 'Shougo/deoplete.nvim' , { 'do': ':UpdateRemotePlugins' }
 	
 	" More syntaxes
@@ -58,7 +57,6 @@ call plug#begin('~/.nvim/plugged')
 	Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 	"Plug 'xolox/vim-easytags'
 	Plug 'xolox/vim-misc'
-	Plug 'OmniCppComplete'
 	Plug 'kchmck/vim-coffee-script'
 
 	" Writing stuff
@@ -241,12 +239,12 @@ endfunction
 " autocmd VimEnter * echo ">^.^<"
 let g:base16_shell_path = "/Users/danielmuckerman/git/base16-builder/output/shell/"
 autocmd VimEnter * call EmojiHi()
-autocmd VimEnter * colo base16-spacemacs
-autocmd VimEnter * AirlineTheme base16_spacemacs
+autocmd VimEnter * colo spacegray
+autocmd VimEnter * AirlineTheme luna
 
 syntax enable
 set background=dark
-let g:airline_theme='base16_spacemacs'
+let g:airline_theme='luna'
 
 " Thesaurus
 let g:online_thesaurus_map_keys = 0
