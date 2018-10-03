@@ -17,18 +17,15 @@ call plug#begin('~/.vim/plugged')
 	Plug 'airblade/vim-rooter'
 
 	" UI stuff
+	Plug 'chriskempson/base16-vim'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
-	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 	Plug 'jaxbot/semantic-highlight.vim'
 	Plug 'kien/rainbow_parentheses.vim'
 
 	" Writing/notes
 	Plug 'plasticboy/vim-markdown'
 	Plug 'nelstrom/vim-markdown-folding'
-	Plug 'beloglazov/vim-online-thesaurus'
-	Plug 'xolox/vim-notes'
-	Plug 'vimwiki/vimwiki'
 
 	" Markdown preview
 	Plug 'suan/vim-instant-markdown'
@@ -37,13 +34,12 @@ call plug#begin('~/.vim/plugged')
 	Plug 'Shougo/neocomplete.vim'
 	
 	" More syntaxes
-	"Plug 'xolox/vim-easytags'
 	Plug 'xolox/vim-misc'
 
 	" C#
 	Plug 'tpope/vim-dispatch'
 	Plug 'ctrlpvim/ctrlp.vim'
-	Plug 'scrooloose/syntastic'
+	"Plug 'scrooloose/syntastic'
 call plug#end()
 
 " Set colorscheme and font
@@ -174,40 +170,14 @@ au! FileType clojure :SemanticHighlight
 nnoremap <C-Tab> :bn<cr>
 nnoremap <C-S-Tab> :bp<cr>
 
-function EmojiHi()
-	let time = strftime("%H")
-
-	" Night
-	if time >= 21 && time < 6
-		echo "Good night!"
-	endif
-	
-	" Morning
-	if time >= 6 && time < 12
-		echo "Good morning!"
-	endif
-
-	" Afternoon
-	if time >= 12 && time < 18
-		echo "Good afternoon!"
-	endif
-
-	" Evening
-	if time >= 18 && time < 21
-		echo "Good evening!"
-	endif
-
-endfunction
-
 " Pretty kitty
 " autocmd VimEnter * echo ">^.^<"
-let g:base16_shell_path=~/git/base16-builder/output/shell/
-autocmd VimEnter * call EmojiHi()
 autocmd VimEnter * colo base16-spacemacs
 autocmd VimEnter * AirlineTheme luna
 
 syntax enable
 set background=dark
+set termguicolors
 colorscheme base16-spacemacs
 let g:airline_theme='luna'
 

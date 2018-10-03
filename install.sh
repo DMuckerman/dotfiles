@@ -42,7 +42,7 @@ fi
 
 echo "Installing Zsh files"
 stow zsh
-curl -sL get.zplug.sh | zsh
+git clone https://github.com/zplug/zplug ~/.zplug
 
 echo "Installing Bash files"
 stow bash
@@ -65,14 +65,6 @@ stow ncmpcpp
 echo "Installing vim files"
 stow vim
 
-echo "Installing neovim files"
-stow nvim
-# nvim init location changed, make sure it loads nvimrc
-mkdir -p ~/.config/nvim
-echo 'source ~/.nvimrc' > ~/.config/nvim/init.vim
-# Install neovim python bindings for deoplete
-pip3 install neovim
-
 if [ ! -f $HOME/.tmux.conf ]; then
     echo "Installing tmux conf"
     cp $HOME/.dotfiles/.tmux.conf ~/.tmux.conf
@@ -93,21 +85,5 @@ if [ ! -f $HOME/.mpdscribble/mpdscribble.conf ]; then
 	cp $HOME/.dotfiles/mpdscribble/osx.conf $HOME/.mpdscribble/mpdscribble.conf
     elif [ "$unamestr" == "Linux" ]; then
 	cp $HOME/.dotfiles/mpdscribble/linux.conf $HOME/.mpdscribble/mpdscribble.conf
-    fi
-fi
-
-
-# Gurren Lagann quotes for fortune
-if [ "$unamestr" == "Darwin" ]; then
-    if [ ! -f /usr/local/Cellar/fortune/9708/share/games/fortunes/gurren ]; then
-	echo "Installing fortune files"
-	cp gurren /usr/local/Cellar/fortune/9708/share/games/fortunes/gurren
-	sudo strfile /usr/local/Cellar/fortune/9708/share/games/fortunes/gurren /usr/local/Cellar/fortune/9708/share/games/fortunes/gurren.dat
-    fi
-elif [ "$unamestr" == "Linux" ]; then
-    if [ ! -f /usr/share/games/fortunes/gurren ]; then
-	echo "Installing fortune files"
-	sudo cp gurren /usr/share/games/fortunes/gurren
-	sudo strfile /usr/share/games/fortunes/gurren /usr/share/games/fortunes/gurren.dat
     fi
 fi

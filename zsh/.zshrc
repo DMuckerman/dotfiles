@@ -11,14 +11,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
     source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Load MOTD {{{
-#if [[ -e $HOME/.motd ]]; then cat $HOME/.motd; fi
-#fortune gurren
-#if [[ "$OSTYPE" == linux* ]]; then
-		#echo
-#fi
-# }}}
-
 # Customize to your needs...
 # Make C-u universal-argument, instead of kill-whole-line
 bindkey '^u' universal-argument
@@ -42,10 +34,6 @@ unalias sl
 alias fuck='$(thefuck $(fc -ln -1))'
 # You can use whatever you want as an alias, like for mondays:
 alias FUCK='fuck'
-
-# Bind true color neovim to vim
-alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
-alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 
 # Perl scripts
 alias twi2gif='perl ~/Developer/perlprojects/twitter2gif.pl'
@@ -107,9 +95,10 @@ zplug load
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Scala Env stuff
-#export SCALAENV_ROOT=/usr/local/var/scalaenv
-#eval "$(scalaenv init -)"
+# Yubikey SSH setup
+export GPG_TTY="$(tty)"
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
 
 # Enable Ctrl-x-e to edit command line
 autoload -U edit-command-line
